@@ -14,10 +14,23 @@ for f in fs:
     fname = fname.replace('custom.', 'c_')
     fields[fname] = {'type':'string', 'analyzer':'search_analyzer'}
 
-settings = mappings['settings'] = {}
+settings = config['settings'] = {}
 settings['number_of_shards'] = 1
 settings['analysis'] = {}
 filters = settings['analysis']['filter'] = {}
+
+sws = xmldoc.getElementsByTagName('stopwords')
+if len(sws) > 0:
+    filters['stopword_filter'] = {}
+    filters['stopword_filter']['stopwords'] = []
+    filters['stopword_filter']['analyzer'] = {'search_analyzer': {'type':'standard', 'tokenizer':'standard', 'filter': ['lowercase', 'stopword_filter']}}
+
+stopwords = filters['stopword_filter']['stopwords']
+for sw in sws:
+    words = sw.firstChild.nodeValue.split(',')
+    for word in words:
+        stopwords.append(word.strip())
+
 syns = xmldoc.getElementsByTagName('synonyms')
 if len(syns) > 0:
     filters['synonym_filter'] = {}
@@ -26,6 +39,9 @@ if len(syns) > 0:
 synonyms = filters['synonym_filter']['synonyms']  
 for syn in syns:
     vals = syn.firstChild.nodeValue.split(',')
-    synonyms.append(vals)
+    stripvals = []
+    for val in vals:
+        stripvals.append(val.strip())
+        synonyms.append(stripvals)
     
 print json.dumps(config, ensure_ascii=True, indent=4)

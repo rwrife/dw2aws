@@ -127,6 +127,10 @@
             <auto-correction>true</auto-correction>
         </searchable-attribute>
     </searchable-attributes>
+    <stopword-list xml:lang="x-default">
+        <stopwords>a, and, the, are</stopwords>
+        <stopwords>or, to, for</stopwords>
+    </stopword-list>    
     <synonym-list xml:lang="x-default">
         <synonyms>10x13, 10 x 13, 10"x13", 10" x 13", 10 in. x 13 in., 10 in. x 13 in., 10 in x 13 in, 10 in x 13 in, 10 inch x 13 inch, 10 inch x 13 inch, 10 by 13</synonyms>
         <synonyms>10x20, 10 x 20, 10"x20", 10" x 20", 10 in. x 20 in., 10 in. x 20 in., 10 in x 20 in, 10 in x 20 in, 10 inch x 20 inch, 10 inch x 20 inch, 10 by 20</synonyms>
