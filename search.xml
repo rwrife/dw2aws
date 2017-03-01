@@ -1,0 +1,2323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<search xmlns="http://www.demandware.com/xml/impex/search2/2010-02-19">
+    <searchable-attributes>
+        <searchable-attribute>
+            <attribute-path>product.custom.CustomFinish</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.ID</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.custom.LightBulbColor</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.custom.LightBulbType</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.UPC</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.brand</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.custom.color</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.custom.designer</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.custom.difficultyLevel</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.custom.ecomCraftTime</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.custom.garmetType</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.custom.itemType</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.custom.licensedCharacter</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.custom.material</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.name</attribute-path>
+            <boost>3.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.custom.occasion</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.custom.patternCategory</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.custom.refinementColor</attribute-path>
+            <boost>0.5</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.custom.size</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.custom.skillLevel</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.custom.style</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.custom.subBrand</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.custom.surfaces</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.custom.theme</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.custom.yarnWeight</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+    </searchable-attributes>
+    <synonym-list xml:lang="x-default">
+        <synonyms>10x13, 10 x 13, 10"x13", 10" x 13", 10 in. x 13 in., 10 in. x 13 in., 10 in x 13 in, 10 in x 13 in, 10 inch x 13 inch, 10 inch x 13 inch, 10 by 13</synonyms>
+        <synonyms>10x20, 10 x 20, 10"x20", 10" x 20", 10 in. x 20 in., 10 in. x 20 in., 10 in x 20 in, 10 in x 20 in, 10 inch x 20 inch, 10 inch x 20 inch, 10 by 20</synonyms>
+        <synonyms>11x14, 11 x 14, 11"x14", 11" x 14", 11 in. x 14 in., 11 in. x 14 in., 11 in x 14 in, 11 in x 14 in, 11 inch x 14 inch, 11 inch x 14 inch, 11 by 14</synonyms>
+        <synonyms>11x17, 11 x 17, 11"x17", 11" x 17", 11 in. x 17 in., 11 in. x 17 in., 11 in x 17 in, 11 in x 17 in, 11 inch x 17 inch, 11 inch x 17 inch, 11 by 17</synonyms>
+        <synonyms>12x12, 12 x 12, 12"x12", 12" x 12", 12 in. x 12 in., 12 in. x 12 in., 12 in x 12 in, 12 in x 12 in, 12 inch x 12 inch, 12 inch x 12 inch, 12 by 12</synonyms>
+        <synonyms>12x16, 12 x 16, 12"x16", 12" x 16", 12 in. x 16 in., 12 in. x 16 in., 12 in x 16 in, 12 in x 16 in, 12 inch x 16 inch, 12 inch x 16 inch, 12 by 16</synonyms>
+        <synonyms>12x18, 12 x 18, 12"x18", 12" x 18", 12 in. x 18 in., 12 in. x 18 in., 12 in x 18 in, 12 in x 18 in, 12 inch x 18 inch, 12 inch x 18 inch, 12 by 18</synonyms>
+        <synonyms>13x19, 13 x 19, 13"x19", 13" x 19", 13 in. x 19 in., 13 in. x 19 in., 13 in x 19 in, 13 in x 19 in, 13 inch x 19 inch, 13 inch x 19 inch, 13 by 19</synonyms>
+        <synonyms>14x20, 14 x 20, 14"x20", 14" x 20", 14 in. x 20 in., 14 in. x 20 in., 14 in x 20 in, 14 in x 20 in, 14 inch x 20 inch, 14 inch x 20 inch, 14 by 20</synonyms>
+        <synonyms>16x20, 16 x 20, 16"x20", 16" x 20", 16 in. x 20 in., 16 in. x 20 in., 16 in x 20 in, 16 in x 20 in, 16 inch x 20 inch, 16 inch x 20 inch, 16 by 20</synonyms>
+        <synonyms>18x24, 18 x 24, 18"x24", 18" x 24", 18 in. x 24 in., 18 in. x 24 in., 18 in x 24 in, 18 in x 24 in, 18 inch x 24 inch, 18 inch x 24 inch, 18 by 24</synonyms>
+        <synonyms>2.5x3, 2.5 x 3, 2.5"x3", 2.5" x 3", 2.5 in. x 3 in., 2.5 in. x 3 in., 2.5 in x 3 in, 2.5 in x 3 in, 2.5 inch x 3 inch, 2.5 inch x 3 inch, 2.5 by 3, 2 1/2x3, 2 1/2 x 3, 2 1/2"x3", 2 1/2" x 3", 2 1/2 in. x 3 in., 2 1/2 in. x 3 in., 2 1/2 in x 3 in, 2 1/2 in x 3 in, 2 1/2 inch x 3 inch, 2 1/2 inch x 3 inch, 2 1/2 by 3</synonyms>
+        <synonyms>20x24, 20 x 24, 20"x24", 20" x 24", 20 in. x 24 in., 20 in. x 24 in., 20 in x 24 in, 20 in x 24 in, 20 inch x 24 inch, 20 inch x 24 inch, 20 by 24</synonyms>
+        <synonyms>20x30, 20 x 30, 20"x30", 20" x 30", 20 in. x 30 in., 20 in. x 30 in., 20 in x 30 in, 20 in x 30 in, 20 inch x 30 inch, 20 inch x 30 inch, 20 by 30</synonyms>
+        <synonyms>24x30, 24 x 30, 24"x30", 24" x 30", 24 in. x 30 in., 24 in. x 30 in., 24 in x 30 in, 24 in x 30 in, 24 inch x 30 inch, 24 inch x 30 inch, 24 by 30</synonyms>
+        <synonyms>24x36, 24 x 36, 24"x36", 24" x 36", 24 in. x 36 in., 24 in. x 36 in., 24 in x 36 in, 24 in x 36 in, 24 inch x 36 inch, 24 inch x 36 inch, 24 by 36</synonyms>
+        <synonyms>2x2, 2 x 2, 2"x2", 2" x 2", 2 in. x 2 in., 2 in. x 2 in., 2 in x 2 in, 2 in x 2 in, 2 inch x 2 inch, 2 inch x 2 inch, 2 by 2</synonyms>
+        <synonyms>2x3, 2 x 3, 2"x3", 2" x 3", 2 in. x 3 in., 2 in. x 3 in., 2 in x 3 in, 2 in x 3 in, 2 inch x 3 inch, 2 inch x 3 inch, 2 by 3</synonyms>
+        <synonyms>3.5x5, 3.5 x 5, 3.5"x5", 3.5" x 5", 3.5 in. x 5 in., 3.5 in. x 5 in., 3.5 in x 5 in, 3.5 in x 5 in, 3.5 inch x 5 inch, 3.5 inch x 5 inch, 3.5 by 5, 3 1/2x5, 3 1/2 x 5, 3 1/2"x5", 3 1/2" x 5", 3 1/2 in. x 5 in., 3 1/2 in. x 5 in., 3 1/2 in x 5 in, 3 1/2 in x 5 in, 3 1/2 inch x 5 inch, 3 1/2 inch x 5 inch, 3 1/2 by 5</synonyms>
+        <synonyms>3d print, 3d printer, 3d printing, 3doodler, 3 doodler, 3d machine, 3d pen</synonyms>
+        <synonyms>3x3, 3 x 3, 3"x3", 3" x 3", 3 in. x 3 in., 3 in. x 3 in., 3 in x 3 in, 3 in x 3 in, 3 inch x 3 inch, 3 inch x 3 inch, 3 by 3</synonyms>
+        <synonyms>3x5, 3 x 5, 3"x5", 3" x 5", 3 in. x 5 in., 3 in. x 5 in., 3 in x 5 in, 3 in x 5 in, 3 inch x 5 inch, 3 inch x 5 inch, 3 by 5</synonyms>
+        <synonyms>4x4, 4 x 4, 4"x4", 4" x 4", 4 in. x 4 in., 4 in. x 4 in., 4 in x 4 in, 4 in x 4 in, 4 inch x 4 inch, 4 inch x 4 inch, 4 by 4</synonyms>
+        <synonyms>4x6, 4 x 6, 4"x6", 4" x 6", 4 in. x 6 in., 4 in. x 6 in., 4 in x 6 in, 4 in x 6 in, 4 inch x 6 inch, 4 inch x 6 inch, 4 by 6</synonyms>
+        <synonyms>5x5, 5 x 5, 5"x5", 5" x 5", 5 in. x 5 in., 5 in. x 5 in., 5 in x 5 in, 5 in x 5 in, 5 inch x 5 inch, 5 inch x 5 inch, 5 by 5</synonyms>
+        <synonyms>5x7, 5 x 7, 5"x7", 5" x 7", 5 in. x 7 in., 5 in. x 7 in., 5 in x 7 in, 5 in x 7 in, 5 inch x 7 inch, 5 inch x 7 inch, 5 by 7</synonyms>
+        <synonyms>6x8, 6 x 8, 6"x8", 6" x 8", 6 in. x 8 in., 6 in. x 8 in., 6 in x 8 in, 6 in x 8 in, 6 inch x 8 inch, 6 inch x 8 inch, 6 by 8</synonyms>
+        <synonyms>8.5x11, 8.5 x 11, 8.5"x11", 8.5" x 11", 8.5 in. x 11 in., 8.5 in. x 11 in., 8.5 in x 11 in, 8.5 in x 11 in, 8.5 inch x 11 inch, 8.5 inch x 11 inch, 8.5 by 11, 8 1/2x11, 8 1/2 x 11, 8 1/2"x11", 8 1/2" x 11", 8 1/2 in. x 11 in., 8 1/2 in. x 11 in., 8 1/2 in x 11 in, 8 1/2 in x 11 in, 8 1/2 inch x 11 inch, 8 1/2 inch x 11 inch, 8 1/2 by 11</synonyms>
+        <synonyms>8x10, 8 x 10, 8"x10", 8" x 10", 8 in. x 10 in., 8 in. x 10 in., 8 in x 10 in, 8 in x 10 in, 8 inch x 10 inch, 8 inch x 10 inch, 8 by 10</synonyms>
+        <synonyms>8x8, 8 x 8, 8"x8", 8" x 8", 8 in. x 8 in., 8 in. x 8 in., 8 in x 8 in, 8 in x 8 in, 8 inch x 8 inch, 8 inch x 8 inch, 8 by 8</synonyms>
+        <synonyms>9x12, 9 x 12, 9"x12", 9" x 12", 9 in. x 12 in., 9 in. x 12 in., 9 in x 12 in, 9 in x 12 in, 9 inch x 12 inch, 9 inch x 12 inch, 9 by 12</synonyms>
+        <synonyms>accordion lantern, paper lantern, paper lanterns</synonyms>
+        <synonyms>air brush, airbrush, air brushes, airbrushes</synonyms>
+        <synonyms>angel, angelus, angelius</synonyms>
+        <synonyms>art minds, artminds</synonyms>
+        <synonyms>artist lamp, table lamp, drafting lamp, lamp, lamps</synonyms>
+        <synonyms>artist loft, artist's loft, artists loft, art loft</synonyms>
+        <synonyms>artist’s loft™ all-media art set, artists loft all media, multimedia art set, multimedia art, 126 piece art set, 126 pc</synonyms>
+        <synonyms>baby shower, babyshower</synonyms>
+        <synonyms>baking, bakeware, baking supplies</synonyms>
+        <synonyms>balloon, ballon</synonyms>
+        <synonyms>bead, beading</synonyms>
+        <synonyms>birdcage, bird cage, bird cages</synonyms>
+        <synonyms>bullet journal, bullet journaling, bullet journals</synonyms>
+        <synonyms>burlap roll, burlap wrap, burlap garland, burlap ribbon, burlap runner, burlap mesh, burlap overlay</synonyms>
+        <synonyms>button maker, creatology plastic buttons</synonyms>
+        <synonyms>cake boss, cake boss™, cakeboss</synonyms>
+        <synonyms>calendar, calender, calander</synonyms>
+        <synonyms>caligraphy, calligraphy</synonyms>
+        <synonyms>candels, candles, candle, candel</synonyms>
+        <synonyms>candle making, candlemaking</synonyms>
+        <synonyms>candy molds, chocolate molds</synonyms>
+        <synonyms>canvas frames, canvas frame, stretcher bar</synonyms>
+        <synonyms>canvas value pack, value 2 pk. canvas, value 2 pack canvas, value two pack canvas</synonyms>
+        <synonyms>canvas, canvases, canva</synonyms>
+        <synonyms>cardstock, card stock</synonyms>
+        <synonyms>cellophane, clearphane, cellophane bags, cello</synonyms>
+        <synonyms>chalk maker, chalk makers, chalkboard maker, chalkboard makers</synonyms>
+        <synonyms>chalkboard paint, chalk board paint</synonyms>
+        <synonyms>chalkboard, chalkboards, chalk board, chalk boards</synonyms>
+        <synonyms>chanuka, chanukah, chanukkah, channukah, hanukah, hannukah, hanukkah, hanuka, hanukka, hanaka, haneka, hanika, khanukkah</synonyms>
+        <synonyms>chiffon, chiffon fabric</synonyms>
+        <synonyms>christmas light, christmas lights, holiday light, holiday lights</synonyms>
+        <synonyms>christmas storage, holiday storage, holiday decoration storage, christmas decoration storage, holiday decor storage, christmas decor storage, xmas storage</synonyms>
+        <synonyms>christmas tree, artificial tree, artificial christmas tree, unlit christmas tree, trend christmas tree, artificial tree, prelit christmas tree, pre-lit christmas tree, slim christmas tree, small christmas tree, xmas tree</synonyms>
+        <synonyms>clay &amp; modeling, clay &amp; modeling materials</synonyms>
+        <synonyms>clear bags, baggies, baggie, baggy</synonyms>
+        <synonyms>clockmaking, clock parts</synonyms>
+        <synonyms>clothes pins, clothespins</synonyms>
+        <synonyms>coloring, coloring book, adult coloring book, adult coloring books, adult coloring, coloring books for adults</synonyms>
+        <synonyms>communion, scripture, scripture art, cross charm, cross pendant, cross pan, baptism</synonyms>
+        <synonyms>contact paper, con-tact, contactpaper, contact, </synonyms>
+        <synonyms>copic, coptic</synonyms>
+        <synonyms>costume pattern, halloween costume pattern</synonyms>
+        <synonyms>costume, halloween costume</synonyms>
+        <synonyms>cotton, cotton fabric</synonyms>
+        <synonyms>craft roll wrap, butcher paper</synonyms>
+        <synonyms>craftstack, craft stack</synonyms>
+        <synonyms>crazy loom, rainbow loom, rubber band loom, krazy loom, rubber band, band loom storage</synonyms>
+        <synonyms>cre8ted space, created space</synonyms>
+        <synonyms>cricut, cricket, circut, circuit</synonyms>
+        <synonyms>crochet cluster afghan, afghan</synonyms>
+        <synonyms>cross stitch, crossstitch, cross stich, crossstich</synonyms>
+        <synonyms>cupcake holder, 3 in 1 caddy</synonyms>
+        <synonyms>cupcake liners, cupcake papers, cupcake papers and liners</synonyms>
+        <synonyms>cupcake wrappers, cupcake wraps</synonyms>
+        <synonyms>decorative baskets, wicker basket</synonyms>
+        <synonyms>despicable me, minions, minion, minion movie, despicable me 2, minions movie, minion party supplies, minion party, despicable me party supplies, minions, despicable me, despicable me party</synonyms>
+        <synonyms>document frame, diploma frame, diploma frames</synonyms>
+        <synonyms>doll house, dollhouse</synonyms>
+        <synonyms>doll pattern, doll clothes pattern</synonyms>
+        <synonyms>dry erase board, whiteboard, white board</synonyms>
+        <synonyms>duck tape stickers, duck tape, duct tape</synonyms>
+        <synonyms>easel set, easel art set, easel art sets, art easel sets, art easel set, easel set, easel sets, artist easel set, artists easel set, artist's easel set</synonyms>
+        <synonyms>easels, easle, easles, easel</synonyms>
+        <synonyms>embroidery hoop, bamboo hoop, quilt hoop, hoop set, plastic hoop</synonyms>
+        <synonyms>exacto knife, x-acto, x-acto knife</synonyms>
+        <synonyms>face paint, facepaint</synonyms>
+        <synonyms>fairy garden, miniatures, miniature</synonyms>
+        <synonyms>fake plants, greenery</synonyms>
+        <synonyms>fake snow, buffalo snow, artificial snow, super snow</synonyms>
+        <synonyms>fiberfill, cotton batting, pillow form, pillow inserts, polyfil, poly-fil, pillow stuffing, stuffing</synonyms>
+        <synonyms>filament, plastic filament, 3d printing filament, 3d printer filament, 3d filament</synonyms>
+        <synonyms>finding dory party, finding dory party supplies, finding dory birthday party, finding dory party decorations, finding dory</synonyms>
+        <synonyms>fleece, fleece fabric</synonyms>
+        <synonyms>flowers, fake flowers</synonyms>
+        <synonyms>foam boards, foam core, foam core board, foamboard, foam board, foamcore</synonyms>
+        <synonyms>foam head, wig head, styrofoam head</synonyms>
+        <synonyms>foot, ft, ft.</synonyms>
+        <synonyms>frame, picture frame</synonyms>
+        <synonyms>friendly plastic modeling, plastimake, plasti-make</synonyms>
+        <synonyms>fuji, fujifilm, polaroid, instax, mini camera, instant camera, fugi, fujimax, instamax, instapix, poloroid</synonyms>
+        <synonyms>gift wrap, wrapping paper</synonyms>
+        <synonyms>glass bubble bowl, fish bowl, fishbowl</synonyms>
+        <synonyms>glass, glassware</synonyms>
+        <synonyms>glow stick, glow bracelet, glow in the dark</synonyms>
+        <synonyms>glue gun, hot glue gun, gluegun</synonyms>
+        <synonyms>grapevine decor, grapevine wreath, grapevine garland, grapevine swag, grapevine teardrop</synonyms>
+        <synonyms>halloween, halloween decor, halloween decorations</synonyms>
+        <synonyms>hay bale, straw bale, haybale, strawbale</synonyms>
+        <synonyms>heart shaped box, heart tin, tin heart</synonyms>
+        <synonyms>heat transfer, heat transfer vinyl</synonyms>
+        <synonyms>helium tank, balloon pump, helium pump</synonyms>
+        <synonyms>henna, henna tattoo</synonyms>
+        <synonyms>hot knife, hotknife</synonyms>
+        <synonyms>in, inch, in.</synonyms>
+        <synonyms>iron on patches, denim patches, twill patches, canvas patches, iron-on patches</synonyms>
+        <synonyms>ironman, iron man, captain america, avengers</synonyms>
+        <synonyms>ivy, ivy leaves</synonyms>
+        <synonyms>jelly watch, fashion watch, jelly watches, jelley watch, jelley watches, fashion watches</synonyms>
+        <synonyms>johanna basford, joanna basford, joanna bassford, johana basford, johana bassford, joanne basford, joanne bassford</synonyms>
+        <synonyms>jump rings, jumprings</synonyms>
+        <synonyms>jurassic park, jurassic world, jurassic</synonyms>
+        <synonyms>kinetic sand, living sand, moon sand, kinetic sand mold, sand mold</synonyms>
+        <synonyms>leather dye, leather paint, angelus, angelus paint, acrylic leather paint, angelus leather paint, angelus acrylic paint, shoe paint, </synonyms>
+        <synonyms>led candle, flameless candle, led flameless candle</synonyms>
+        <synonyms>led garland, string light, decorative led garland, light garland, vine light, strung lights</synonyms>
+        <synonyms>lemax, lemac christmas, lemax village collection, lemax christmas village collection, christmas village, christmas town, christmas city, christmas miniature, miniature christmas</synonyms>
+        <synonyms>lightbox inserts, lightbox insert, light box insert, litebox insert, lite box insert, lite box letters, litebox letters, lightbox letter, light box letter</synonyms>
+        <synonyms>lightbox, light box, litebox, lite box</synonyms>
+        <synonyms>lighted letters, light up letters, marquee</synonyms>
+        <synonyms>liquitex, liquidtex, liqiutex, liqiudtex</synonyms>
+        <synonyms>lit branch, decorative led branch, led branch, light branch, lit twig, decorative led twig, led twig, light twig, </synonyms>
+        <synonyms>lollipop sticks, cakepop sticks, cake pop sticks</synonyms>
+        <synonyms>magnifier, magnifying glass</synonyms>
+        <synonyms>mannequin, manikin</synonyms>
+        <synonyms>mask, masquerade, masquerade masks, masks</synonyms>
+        <synonyms>mason jar, canning jar, kerr, ball jar</synonyms>
+        <synonyms>melissa and doug, melissa &amp; doug</synonyms>
+        <synonyms>mod podge, modge podge</synonyms>
+        <synonyms>needle felting, felting</synonyms>
+        <synonyms>new year, new years, new year's, new year's eve, new years eve, nye</synonyms>
+        <synonyms>oracal, oracle, orakal, orkal, orcal</synonyms>
+        <synonyms>ornament frame, photo ornament</synonyms>
+        <synonyms>ornaments, tree ornaments, ordiments</synonyms>
+        <synonyms>ottlite, ottlight, ott-lite, ott-light, otlight, otlite, ot-lite, ot-light, ott lite</synonyms>
+        <synonyms>paper cutter, trimmer</synonyms>
+        <synonyms>paper house, paper house productions</synonyms>
+        <synonyms>paper punch, hole punch, hole puncher</synonyms>
+        <synonyms>paper punch, punches</synonyms>
+        <synonyms>paracord, gimp</synonyms>
+        <synonyms>party pack, party kit</synonyms>
+        <synonyms>party, parties, special occasions, celebrations</synonyms>
+        <synonyms>paw patrol, paw patrol party, paw patrol</synonyms>
+        <synonyms>peony, peonies</synonyms>
+        <synonyms>photo book, photo album, photobook, photoalbum</synonyms>
+        <synonyms>photo box, photo boxes, memory box, memory boxes, photo storage, picture storage, picture box, memory storage, picture boxes</synonyms>
+        <synonyms>pipe cleaner, chenille stem, fuzzy wire, pipecleaner</synonyms>
+        <synonyms>place cards, placecards</synonyms>
+        <synonyms>planner, planners, agenda</synonyms>
+        <synonyms>plastic ornaments, shatterproof ornaments</synonyms>
+        <synonyms>play doh, playdoh, playdo, softee dough, playdough, play dough</synonyms>
+        <synonyms>play house, playhouse</synonyms>
+        <synonyms>poinsettia, poinsetta, poinsettias, pointsettas</synonyms>
+        <synonyms>polka dots, dots, polka dotted</synonyms>
+        <synonyms>postcard, postcards, post card, post cards</synonyms>
+        <synonyms>posterboard, poster board</synonyms>
+        <synonyms>prismacolor, prisma, prisms color</synonyms>
+        <synonyms>proheater tool, heat gun, shrinkwrap gun, embossing heat tools</synonyms>
+        <synonyms>puffy, puff</synonyms>
+        <synonyms>push pin, pushpin</synonyms>
+        <synonyms>puzzle glue, masterpieces elmer's® glue bottle, puzzle saver</synonyms>
+        <synonyms>pyrography, versa-tool</synonyms>
+        <synonyms>rabbit, bunny, bunnies, rabbits, bunny rabbit, bunny rabbits, hares, hare</synonyms>
+        <synonyms>rainbow loom case, darice 17 compartment bead organizer, rainbow loom organizer, rainbow loom storage</synonyms>
+        <synonyms>sand ceremony, unity sand</synonyms>
+        <synonyms>scanncut, scan and cut, scan-n-cut, scan n cut</synonyms>
+        <synonyms>scrap book, scrapbook, scrap booking, scrap books</synonyms>
+        <synonyms>scrapbook case, paper storage</synonyms>
+        <synonyms>scrapbook storage, craft organization</synonyms>
+        <synonyms>scrapefoil, scraperfoil, scrape foil, scraper foil</synonyms>
+        <synonyms>screen printing, screenprinting</synonyms>
+        <synonyms>selfie, selfie stick, selfy, selfy stick</synonyms>
+        <synonyms>sewing pattern, clothing pattern</synonyms>
+        <synonyms>shadowbox, shadowboxes, shadow box, shadow boxes</synonyms>
+        <synonyms>shamrock, four leaf clover, st patricks day, saint patricks day</synonyms>
+        <synonyms>shelf, shelves, shelfs, shelve, shelving</synonyms>
+        <synonyms>shell, sea shell</synonyms>
+        <synonyms>shopkins, shopkins season 4, shopkins season 3, shopkins season 2, shopkins season 1</synonyms>
+        <synonyms>silhouette, siloutte</synonyms>
+        <synonyms>sizzix, sissix</synonyms>
+        <synonyms>sketch pad, sketchpad, sketchbook, sketch book</synonyms>
+        <synonyms>snow globe, snowglobe</synonyms>
+        <synonyms>soap making, soapmaking</synonyms>
+        <synonyms>spookytown, spooky town, lemax spooky town, lemax spookytown, halloween village, halloween town, spooky village, halloween miniature, miniature halloween</synonyms>
+        <synonyms>spray paint, spraypaint</synonyms>
+        <synonyms>star fish, starfish</synonyms>
+        <synonyms>star shower, starshower, star showers, light show, lightshow</synonyms>
+        <synonyms>stationary, stationery</synonyms>
+        <synonyms>stem bundle, bouquet, bridle bouquet, wedding bouquet, rose bundle, hydrangea bundle, hydrangea bush, rose bush</synonyms>
+        <synonyms>sticker, stickers, scrapbook stickers, scrapbook sticker, scrap book sticker</synonyms>
+        <synonyms>storage box, storage boxes, storage case, craft case, storage container</synonyms>
+        <synonyms>storage, storage &amp; organization</synonyms>
+        <synonyms>strathmore yellow artist paper pads, strathmore 300 series, strathmore yellow</synonyms>
+        <synonyms>styrofoam, stirafoam</synonyms>
+        <synonyms>suzanne, balloon</synonyms>
+        <synonyms>swarovski, swavorski</synonyms>
+        <synonyms>table cloth, table cloths, table runner, table runners, runner, table cover, table covers</synonyms>
+        <synonyms>tabletop easel, table top easel, table easel</synonyms>
+        <synonyms>the elf on the shelf, elf on the shelf, the elves on the shelf, the elves on the shelves, elf shelf, elves shelves</synonyms>
+        <synonyms>tie dye, fabric dye, tie die, tye die, tye dye</synonyms>
+        <synonyms>tshirts, shirts, tshirt, t-shirt, t-shirts, tee shirts, tees</synonyms>
+        <synonyms>tulle, tule</synonyms>
+        <synonyms>type writer, typewriter, type writers</synonyms>
+        <synonyms>usa, 4th of july, fourth of july, </synonyms>
+        <synonyms>vase filler, vase fillers, filler</synonyms>
+        <synonyms>vinyl, vynal</synonyms>
+        <synonyms>votive, votives, votive candle, votive canles</synonyms>
+        <synonyms>wash tape, washi tape</synonyms>
+        <synonyms>washi tape box, washi crafting box, washi crafting tape box, washi box</synonyms>
+        <synonyms>watercolor, water color</synonyms>
+        <synonyms>weave loom, knit loom, potholder looms, pot looms, holder loom</synonyms>
+        <synonyms>wedding, weddings, receptions, wedding reception</synonyms>
+        <synonyms>wick, candle wick</synonyms>
+        <synonyms>wiggle eyes, googly eyes, wiggly eyes, googley eye, sticky eye, eye, google eye, </synonyms>
+        <synonyms>wilton 5 layer pan set, easy layers, 5 layer cake, easy layer cake pan set</synonyms>
+        <synonyms>winsor &amp; newton, winsor and newton</synonyms>
+        <synonyms>wood beads, wooden beads</synonyms>
+        <synonyms>wood burning, woodburning, woodburner, wood burner, woodburning pen, woodburning pens</synonyms>
+        <synonyms>wood frame, wooden frame, wood frames, wooden frames, wood picture frame, wood picture frames, wooden picture frame, wooden picture frames</synonyms>
+        <synonyms>wood number, wooden numbers</synonyms>
+        <synonyms>wood sticks, popsicle sticks, wood stick, popsicle stick</synonyms>
+        <synonyms>wooden cross, wood cross</synonyms>
+        <synonyms>wooden dowels, wooden dowel, wood dowels, wood dowel</synonyms>
+        <synonyms>wooden letters, wood letters, wood letter, wooden letter</synonyms>
+        <synonyms>wooden shapes, wood shape, wood shapes</synonyms>
+        <synonyms>wooden, wood</synonyms>
+        <synonyms>yarn, cotton yarn</synonyms>
+    </synonym-list>
+    <hypernym-list xml:lang="x-default">
+        <hypernym-rule>
+            <hyponyms>- derwent, - dixon, - crayola, - sargent</hyponyms>
+            <hypernyms>wood box</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>- disney, - star wars</hyponyms>
+            <hypernyms>film</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>- native</hyponyms>
+            <hypernyms>nativity</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>- photo album, - manikin</hyponyms>
+            <hypernyms>magnet</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>- zipper</hyponyms>
+            <hypernyms>crayon</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-10278113, -10278115, -10278116</hyponyms>
+            <hypernyms>metal letter</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-10444373, -bead, -stamp, -jelly, -mat, -swarovski, -paint, -yarn, -floss, -woolspun, -enamel, -marker, -ribbon, -felt, -canvas</hyponyms>
+            <hypernyms>moss</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-acrylic, -barn</hyponyms>
+            <hypernyms>basswood</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-alphabet</hyponyms>
+            <hypernyms>case</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-americana, -justice league, -honeycomb, -taffeta, -sticker, -comic, -santa, -jack, -nativity, -bead</hyponyms>
+            <hypernyms>lantern</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-artminds</hyponyms>
+            <hypernyms>cupcake box</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-ashland</hyponyms>
+            <hypernyms>chain</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-ashland, -frame</hyponyms>
+            <hypernyms>button</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-b_83314</hyponyms>
+            <hypernyms>slime</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-balloon</hyponyms>
+            <hypernyms>paper punch</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-basket gift bags, -basket accents, -d015850s, -basket weave, -basket flower, - slubby, - new sprouts, - rabbit, - topper, -sparrow, -sizzix</hyponyms>
+            <hypernyms>basket</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-basket, -cuff, -stem, -bag, -bead, -necklace, -bracelet, -jewelry set, -storage, -desk</hyponyms>
+            <hypernyms>mesh</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-bead</hyponyms>
+            <hypernyms>glass paint</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-bead</hyponyms>
+            <hypernyms>plate</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-bead</hyponyms>
+            <hypernyms>wood stain</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-bead jar, -jar of crafts, - vehicle</hyponyms>
+            <hypernyms>jar</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-bead, -bulletin</hyponyms>
+            <hypernyms>sponge</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-beads</hyponyms>
+            <hypernyms>polymer clay</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-board, -watch, -tree</hyponyms>
+            <hypernyms>trim</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-bowl</hyponyms>
+            <hypernyms>bubble</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-broadcloth, -coloring book</hyponyms>
+            <hypernyms>charm</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-buffalo snow, -d025642s</hyponyms>
+            <hypernyms>bags</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-candle</hyponyms>
+            <hypernyms>wooden number</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-canvas</hyponyms>
+            <hypernyms>henna</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-canvas, -yarn, -paint, -colored pencil</hyponyms>
+            <hypernyms>grass</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-cardstock, -playmonster, -gooseberry, -americana, -recollections</hyponyms>
+            <hypernyms>patch</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-christmas</hyponyms>
+            <hypernyms>foam balls</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-circuit</hyponyms>
+            <hypernyms>cricket</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-circuit</hyponyms>
+            <hypernyms>cricut</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-cotton, -ribbon, -yarn</hyponyms>
+            <hypernyms>crown</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-d003676s</hyponyms>
+            <hypernyms>glass bowl</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-d015056s</hyponyms>
+            <hypernyms>glue</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-d015058s</hyponyms>
+            <hypernyms>cardstock</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-disk, studio designs, design studio, -10434447, -10425977, -10349742, -10437643, -table tent cards, -cookbook easel, lipper</hyponyms>
+            <hypernyms>desk</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-dylusions, stem, -chenille, spray, bush, -frame, -fabric, -testors, -elmers, -design master, -krylon, -marabu, -basket, -artist, -e6000, -woodland scenics, -adhesive, -3m</hyponyms>
+            <hypernyms>flower</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-fleece, -microsuede, -velvet, -canvas, -yarn, -paint, -stain, -dye, -enamel</hyponyms>
+            <hypernyms>wine</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-floral flourish clay</hyponyms>
+            <hypernyms>clay</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-floss, -sand, -netting, -swirl</hyponyms>
+            <hypernyms>rose</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-foot</hyponyms>
+            <hypernyms>bowl</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-frame</hyponyms>
+            <hypernyms>clip</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-frame</hyponyms>
+            <hypernyms>wall decor</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-gem</hyponyms>
+            <hypernyms>stick</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-glue</hyponyms>
+            <hypernyms>bottle</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-golf tee, -doll, -elf, -gift box</hyponyms>
+            <hypernyms>shirt</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-golf, -elf, -doll</hyponyms>
+            <hypernyms>t-shirts, tshirts</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-green</hyponyms>
+            <hypernyms>flag</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-guidecraft</hyponyms>
+            <hypernyms>mylar</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-guidecraft, -momenta</hyponyms>
+            <hypernyms>frame set, frame sets</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-hero arts, -blue moon beads, -yarn, -paint</hyponyms>
+            <hypernyms>leaves</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-hero, -mache</hyponyms>
+            <hypernyms>art set, art sets</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-hocking, -vinyl, -batiste</hyponyms>
+            <hypernyms>anchor</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-lantern, -album, - scrapbook</hyponyms>
+            <hypernyms>leather</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-leather, -oils</hyponyms>
+            <hypernyms>gift box</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-led</hyponyms>
+            <hypernyms>globe</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-liquid, -valentine</hyponyms>
+            <hypernyms>acetate</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-loops &amp; threads</hyponyms>
+            <hypernyms>mirror</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-metal rimmed tags, -premium stack, -doodle mix, -creative lettering, -bails, -pencil set, -adhesive mat, -memory planner, -burlap, -wood panel, -chalkboard, -clothespins, -blocking board, -standard mat, -steel sheet, -foam sheet, -stamp jar, -primrose stack, -quilters square, -illustration board, -presentation board, -shadowbox, -page kit, -envelope, -sketchbook, -diy project stack, -photo pocket pages, -crimps, -charms, -jewelry stand, -foam board, -stickers, -stencil, -hooks, -acrylic, -page protectors, -cutting mat, -hook kit, -pillow, -moss, -album, -frame, cork board, -paper, -vinyl, -cake box, -gessobord, -shadow box, -canvas, -cardstock, -felt, -scrapbook, -chipboard</hyponyms>
+            <hypernyms>cork</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-mod podge, -10240919, -10240920, -d004709s, -10401109, -crown, -garland, -paper roof villa, </hyponyms>
+            <hypernyms>paper</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-oilcloth, -rose, -napkin, -invitation, -cup, -plate</hyponyms>
+            <hypernyms>confetti</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-ook, -stock car</hyponyms>
+            <hypernyms>stocking</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-ornamental, -window decoration</hyponyms>
+            <hypernyms>ornament</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-pacon</hyponyms>
+            <hypernyms>filler</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-paint</hyponyms>
+            <hypernyms>pot</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-paint, -guidecraft, -omnigrid</hyponyms>
+            <hypernyms>eucalyptus</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-paper</hyponyms>
+            <hypernyms>pin</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-paper mache</hyponyms>
+            <hypernyms>glitter glue</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-papermate</hyponyms>
+            <hypernyms>gel medium</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-pen, -jet, -velvet</hyponyms>
+            <hypernyms>ink</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-pinata, -piñata</hyponyms>
+            <hypernyms>string</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-portobello vase ladybug</hyponyms>
+            <hypernyms>vase</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-pretend, -new sprouts, -tape</hyponyms>
+            <hypernyms>plastic canvas</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-recollections</hyponyms>
+            <hypernyms>zipper</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-rose</hyponyms>
+            <hypernyms>princess</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-rose, -foil</hyponyms>
+            <hypernyms>diamond</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-royal &amp; langnickel</hyponyms>
+            <hypernyms>essential oils</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-safari</hyponyms>
+            <hypernyms>drafting</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-santa</hyponyms>
+            <hypernyms>burlap</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-santa</hyponyms>
+            <hypernyms>gift bag</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-satin</hyponyms>
+            <hypernyms>matte</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-scrapbook, -photo album</hyponyms>
+            <hypernyms>board</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-spray</hyponyms>
+            <hypernyms>needle</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-stain, -paint, -yarn</hyponyms>
+            <hypernyms>grapevine</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-stem, -leopard</hyponyms>
+            <hypernyms>snow</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-sticker</hyponyms>
+            <hypernyms>jewelry box</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-sticker, -embellishment</hyponyms>
+            <hypernyms>pebble</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-studio decor, -pad, -ring, -10279288, -alphabet</hyponyms>
+            <hypernyms>marker</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-typewriter</hyponyms>
+            <hypernyms>ribbon</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-vibrant, -whitney, -microsuede, -charmeuse, -dupione, -spectrum, -albero, -tahiti, -linen, -burlap, -starfish, -tulle, -solid, -reef, -sanding, -grout, -gel, -paper, -sticker, -charm, -fabric, -bead, -embellishment, -texture, -yarn, -paint, -ribbon, -cardstock, -acrylic, -pencil, -marker, -keeper, -floss, -plus, -sand dollar, -plaque, -sandblast</hyponyms>
+            <hypernyms>sand</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-vinyl scrapbook</hyponyms>
+            <hypernyms>vinyl</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-window, -charm</hyponyms>
+            <hypernyms>silhouette</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-wired</hyponyms>
+            <hypernyms>wire</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-yard</hyponyms>
+            <hypernyms>clear bag</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-yarn, -leather, -paint</hyponyms>
+            <hypernyms>beach</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-yarn, -paint, -marker</hyponyms>
+            <hypernyms>peony, peonies</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-yarn, -ribbon, -invitations, -prism, -hat, -stencil, -tattoo, -plate, -napkin, -brush, -blower, -paper, -badana, -lacing, -banner, -felt, -oragami, -duck, -soap</hyponyms>
+            <hypernyms>dye</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>-yarn, acrylic, -bead gallery</hyponyms>
+            <hypernyms>paint</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>10074961</hyponyms>
+            <hypernyms>wedding arch</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>10103269</hyponyms>
+            <hypernyms>cake pop maker</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>10103269, 10254241, 10174492, 10265968</hyponyms>
+            <hypernyms>cake pop</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>10107547, 10272595</hyponyms>
+            <hypernyms>embossing pen</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>10197918, 10325393, 10467057, 10109501, 10197632, 10467055, 10434260, 10311357, 10398964, 10434258, 10144234, 10434259, 10468254</hyponyms>
+            <hypernyms>storage cart</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>10216704, 10230779, 10998880</hyponyms>
+            <hypernyms>lightboxes</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>10397768, 10333046, 10117556, 10117221, m10145616, 10117557, 10117558, 10278116, 10117561, 10117560, 10388863, 10397766, 10278113, 10278115, 10117237, 10145630, 10117559, 10117236, 10274072, 10274073, 10145614, 10117555, 10274059, 10145615, 10333041, 10349298, 10274071, 10240153</hyponyms>
+            <hypernyms>iron on vinyl, heat transfer vinyl</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>10509719, 10509720, 10509721, 10509722, 10509723, 10509724</hyponyms>
+            <hypernyms>bullet journal</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>3d print, 3d pen, 3d printing, 3d machine, 3doodler</hyponyms>
+            <hypernyms>3d printer</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>agenda</hyponyms>
+            <hypernyms>planner</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>alphabet soup</hyponyms>
+            <hypernyms>make market</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>aluminum, iron, tin, zinc</hyponyms>
+            <hypernyms>metal</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>apothecary &amp; company, -branch</hyponyms>
+            <hypernyms>fairy light</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>art set</hyponyms>
+            <hypernyms>art sea</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>bandana</hyponyms>
+            <hypernyms>bandanas</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>batiste, bengaline, broadcloth, challis, charmeuse, chiffon, corduroy, cotton, pique, crinoline, denim, fur, suede, flannel, fleece, gabardine, gauze, georgette, habutae, interfacing, jersey, lace, lame, linen, minky, monks cloth, neoprene, non clip, organdy, organza, oxford cloth, peachskin, pongee, poplin, satin, scuba, sequin, spandex, taffeta, toweling, tricot, twill, velvet, velveteen, netting, vinyl, leather</hyponyms>
+            <hypernyms>fabric</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>binder</hyponyms>
+            <hypernyms>binders</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>botanical</hyponyms>
+            <hypernyms>floral</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>calendar</hyponyms>
+            <hypernyms>calendars</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>captain america</hyponyms>
+            <hypernyms>civil war</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>carbon paper</hyponyms>
+            <hypernyms>graphite paper</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>card, cards, envelope, envelopes, -educational insights, -me and my big ideas, -artminds, -ashley products, -bead landing, -brides, -celebrate it, -c-line products, -collected notions, -daniel smith, -darice, -david tutera, - gartner, -guidecraft, -learning advantage, -learning resources, -playmonster, -pro mag, -shopkins, -sparrow, -studio decor, -top, -trend, -unique, -universal, -urban homestead, -usaopoly, -victoria lynn</hyponyms>
+            <hypernyms>card making, cardmaking</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>celebrate it mesh</hyponyms>
+            <hypernyms>decomesh, deco mesh</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>centerpiece</hyponyms>
+            <hypernyms>centerpieces</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>certificate</hyponyms>
+            <hypernyms>document</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>chair, desk, bookcase, book case, cubby, table</hyponyms>
+            <hypernyms>furniture</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>chalk pen</hyponyms>
+            <hypernyms>chalk marker</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>copic</hyponyms>
+            <hypernyms>copics</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>cork &amp; chalk photo clip, chicken wire frame</hyponyms>
+            <hypernyms>clothespin frame</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>cork board</hyponyms>
+            <hypernyms>bulletin board</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>craftstack, 10402317, washi dispenser set, washi organizer, -10446866</hyponyms>
+            <hypernyms>washi storage</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>cupcake stand</hyponyms>
+            <hypernyms>cupcake holder</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>desk</hyponyms>
+            <hypernyms>desks</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>felt</hyponyms>
+            <hypernyms>felting</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>floracraft</hyponyms>
+            <hypernyms>floral foam</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>foam</hyponyms>
+            <hypernyms>craft foam</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>journal, -tape</hyponyms>
+            <hypernyms>notebook</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>krylon, design master, americana spray</hyponyms>
+            <hypernyms>spray paint</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>lanyard</hyponyms>
+            <hypernyms>lanyards</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>lemax</hyponyms>
+            <hypernyms>miniature</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>lemax spooky town</hyponyms>
+            <hypernyms>halloween</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>locker accessories</hyponyms>
+            <hypernyms>locker decor</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>loom</hyponyms>
+            <hypernyms>knitting loom</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>mccalls, mccall's, mccall, simplicity, vogue, butterick, kwik sew, -trim, -ribbon, </hyponyms>
+            <hypernyms>pattern, sewing pattern</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>nfl, nba, nascar, ncaa, mlb</hyponyms>
+            <hypernyms>team</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>ottlite, ott lite, ott light, ottlites, ott lites, ott lights, string lights, strung lights, mini christmas lights</hyponyms>
+            <hypernyms>crafting lights</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>ottlite, studio designs lamp</hyponyms>
+            <hypernyms>artist lamp, table lamp, drafting lamp</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>palette</hyponyms>
+            <hypernyms>palettes</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>paper mache</hyponyms>
+            <hypernyms>cardboard</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>photo box, photo case, carrying case, scrapbook case, craft case, plastic case, quick view cases, 10468249, 10165323, 10352591, 10467057, 10036763, 10144234, 10468325, d015677s, 10218117, -calico, -microscope</hyponyms>
+            <hypernyms>storage</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>picture</hyponyms>
+            <hypernyms>pictures</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>planner</hyponyms>
+            <hypernyms>calendar</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>pochade box</hyponyms>
+            <hypernyms>table easel</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>pontiac, ford, subaru, shelby, camaro, dodge, chevy, chevrolet, lamborghini, ferrari, hot rod, challenger, plymouth, audi</hyponyms>
+            <hypernyms>car</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>pumpkin</hyponyms>
+            <hypernyms>halloween</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>pushpin frame, cork &amp; chalk photo clip</hyponyms>
+            <hypernyms>clip frame</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>resin, acrylic</hyponyms>
+            <hypernyms>plastic</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>rolling cart</hyponyms>
+            <hypernyms>rolling carts</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>rolling cart, drawer cart</hyponyms>
+            <hypernyms>rolling organizer</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>safari, ltd.</hyponyms>
+            <hypernyms>plastic animal</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>spooky town, halloween town, spooky town, christmas village, xmas village, christmas town</hyponyms>
+            <hypernyms>lemax</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>st. patrick's day, easter, mardi gras</hyponyms>
+            <hypernyms>spring party</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>styrofoam</hyponyms>
+            <hypernyms>foam</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>surebonder, all temp, glue gun</hyponyms>
+            <hypernyms>hot glue</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>tanoak, pinewood, pine, fir</hyponyms>
+            <hypernyms>wood</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>tree skirt</hyponyms>
+            <hypernyms>tree skirts</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>vanna</hyponyms>
+            <hypernyms>vannas</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>wedding bouquet</hyponyms>
+            <hypernyms>wedding bouquets</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>wood letters, marquee</hyponyms>
+            <hypernyms>letters &amp; numbers</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>wreath storage, light storage, gift wrap storage, ornament cube, wreath bag, garland bag, gift wrap organizer, ornament box, christmas tree storage, tree storage</hyponyms>
+            <hypernyms>christmas storage</hypernyms>
+        </hypernym-rule>
+        <hypernym-rule>
+            <hyponyms>zipper</hyponyms>
+            <hypernyms>zippers</hypernyms>
+        </hypernym-rule>
+    </hypernym-list>
+    <redirect-list>
+        <redirect>
+            <keywords xml:lang="x-default">contactus, contact-us, customer care, customer service, help</keywords>
+            <keywords xml:lang="en-US">contact,contact-us, contactus, con</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="CustomerService-ContactUS"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">birthday party at a store, ﻿birthday party at michaels, birthday party for children, birthday party for kids, classes, ﻿classes at a michaels store, classes at michaels, classes at my store, classes for children, classes for kids, classes in the store, classes near me, creatology birthday party, event, events, events at a michaels store, events at my store, events at the store, events for children, events for kids, events near me, in store birthday party, in store events, kids birthday party at a store, kids birthday party at michaels, kids classes, kids club, cake decorating classes, cake decorating class, in store classes</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="classesandevents"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">privacy,privacy-policy</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <page-redirect page-id="Your-Privacy-Rights"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">12x12 frame, 12 x 12 frame, 12"x12" frame, 12" x 12" frame, 12 in. x 12 in. frame, 12 in. x 12 in. frame, 12 in x 12 in frame, 12 in x 12 in frame, 12 inch x 12 inch frame, 12 inch x 12 inch frame, 12 by 12 frame, 12x12 frames, 12 x 12 frames, 12"x12" frames, 12" x 12" frames, 12 in. x 12 in. frames, 12 in. x 12 in. frames, 12 in x 12 in frames, 12 in x 12 in frames, 12 inch x 12 inch frames, 12 inch x 12 inch frames, 12 by 12 frames</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="/frames/display-cases-and-shadowboxes/840874378?pmpt=qualifying#prefn1=size&amp;pmpt=qualifying&amp;prefv1=12&quot; x 12&quot;"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">20% coupon, 25% off coupon, 40% coupon, 40% Entire, 40% off coupon, 40 coupon, 50% coupon, 50% off coupon, 50 coupon, ad, black friday, black friday ad, coopon, coopons, coupon, coupons, cuopon, cupon, cupons, discount, hobby lobby, in store coupon, in store coupons, michael coupon, michaels coupon, michaels coupons, printable coupons, promo, promotion, sale, search weekly ad, store coupons, weekly ad, weekly coupon</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="http://www.michaels.com/coupons"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">activity kits, activity sets</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="876275390"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">american essential, american essentials, classic collection, classic collections, custom frame, custom frames, custom framing, mdd, modern day design, modern day designs, renaissance collection, renaissance collections</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <page-redirect page-id="custom-framing"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">a night owl, a pumpkin and a princess, a thoughtful place, aunt peaches, by stephanie lynn, cakies, chase the star, design dazzle, diy show off, eat.sleep.make, eighteen25, giggles galore, happy together, jaderbomb, just destiny mag, kara's party ideas, lia griffith, lil' luna, lil blue boo, lovely indeed, love the day, make it and love it, maker, michaels maker, michaels makers, positively splendid, skip to my lou, sugar bee crafts, tatertots and jello, the clueless girl's guide, the crafting chicks, the project girl, u create</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="http://blog.michaels.com/michaels-makers"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">apparel, apparel craft, apparel crafts</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="807060410"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">art supplies, fine art supplies, art</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809187942"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">art desk, art table, art tables, craft table, creative center, creative design center, desk, desks, drafting table, drafting tables, drawing table, drawing tables</keywords>
+            <online-flag>false</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="845166110"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">artificial flower, artificial flowers, fake flower, fake flowers, flower, flowers, silk flower, silk flowers</keywords>
+            <online-flag>false</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188371"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">artificial plant, artificial plants</keywords>
+            <online-flag>false</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188378"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">artificial tree, artificial trees</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="873360000"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">art portfolio</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="845161303"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">baby fabric, baby fabrics</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="853465908"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">baby invitations, baby shower invitations, custom invitations, custom invites, graduation invitations</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <page-redirect page-id="ca-custom-products"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">baking</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="845009276"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">baking pan, baking pans</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188242"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">bead, beads</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188122"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">bead gallery strung beads</keywords>
+            <online-flag>false</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="http://www.michaels.com/beads/strung-beads/809188123#prefn1=brand&amp;prefv1=Bead Gallery"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">blank canvas, blank canvases, canvas, stretched canvas, stretched canvases, canvases</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="845425350"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">blank card, blank cards</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="890837688"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">blog, blogger, blogs, michaels blog, the glue string</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="http://blog.michaels.com/"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">boho trend, boho modern, boho market, boho projects, boho jewelry, boho</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="http://www.michaels.com/boho-trends"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">branch, branches, branches &amp; sticks, stick</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="868432517"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">bridal shower invitations</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188813"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">cake decorating, cake decorations</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188218"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">candle wax, candle gel</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188700"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">candle making</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188699"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">custom canvas, photo canvas, personalized canvas, canvas prints, custom canvas prints, photo on canvas,</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <page-redirect page-id="ca-custom-products"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">career, careers, careers at michaels, employment, job, jobs, opening, openings, work, work at michaels, work for michaels</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="http://www.michaels.com/hr-join.html"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">yarn projects, projects with yarn, diy yarn projects, caron cakes projects</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="815812019"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">ceramics</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="845166443"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">chalk</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="876270260"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">change my password, change password, how do i change my password, how do i change password, how to change my password, password change, password</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="https://www.michaels.com/Account"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">charcoal</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="845160478"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">charger plates</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="890601586"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">christmas crafting, christmas crafts, holiday crafts</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="851749554"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">christmas decoration, christmas decorations, christmas decor</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="851749577"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">christmas garland, holiday garland</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="857941326"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">christmas lights, christmas lighting</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="854534198"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">christmas projects, christmas project, xmas project, holiday project, holiday projects</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="815811870"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">cricut, cricket, circut, circuit</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="859995510"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">circuit accessory, circuit accessories, circut accessory, circut accessories, cricket accessory, cricket accessories, cricut accessory, cricut accessories</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="860002101"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">circuit machine, circuit machines, circut machine, circut machines, cricket machine, cricket machines, cricut machine, cricut machine</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="860002097"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">circuit project, circuit projects, circut project, circut projects, cricket project, cricket projects, cricut project, cricut project</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="815811983"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">cityscape, city scape, manorpark, manor park, oxford street, manor park frames, oxford street frames, cityscape frames, manorpark frames, city scape frames,</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="http://www.michaels.com/custom-frames.html?ecgid=custom-framing"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">classic christmas collection, classic christmas</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="884005520"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">clay tools</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="845166635"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">clearance, clearence</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="http://www.michaels.com/clearance"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">clockmaking, clock making, clock part, clock parts</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188684"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">coastal decor, coastal prep, coastal prep decor, coastal prep decor collection, coastal prep spring decor, coastal prep spring decor collection</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="901556958"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">costume pattern, costume sewing pattern, costume patterns, costume sewing patterns</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="894384243"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">craft, crafts</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188650"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">diy, favorite ideas, how do i, how to, how to make, ideas, ideas for the season, instructables, instructions, make, online ideas, project ideas, projects, projects for the season, seasonal projects, top ideas, trending projects, project, craft projects, craft project, diy projects</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="Projects"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">creative bug, creativebug, online classes, video classes, take a class online, take a video class,</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="http://onlineclasses.michaels.com"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">crochet project, crochet projects</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="815812021"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">crochet thread</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="850540203"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">cupcake liner, cup cake liner, cupcake liners, cup cake paper, cupcake papers, cupcake papers and liners</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188261"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">custom frame express, custom framing express, express custom frames, express custom framing</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <page-redirect page-id="frame-express"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">darby smart, darby smart projects, darby smart kit</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="http://www.michaels.com/darby-smart-quiz/darbysmart-quiz.html"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">digital gift card, ecard, egift card, giftcard, gift card, gift card balance, giftcards, gift cards, michaels gift card, michaels gift cards, online gift, online giftcard, online gift card, shopping card</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="https://merchant.sgiftcard.com/chrome/michaels"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">dimensional lighting, dimensional lights, outdoor christmas lights</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="879719261"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">jewelry projects, jewelry project, diy jewelry, how to make jewelry</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="815811921"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">painting project, painting projects, DIY painting, painting how to, how to paint</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="839627479"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">diy slime, do it yourself slime, glitter slime, how do i make slime, how do i make slime?, how to make slime, how to slime, kid friendly slime, make your own slime, making slime, slime, slime, slime diy, slime do it yourself, slime how to, slime kit, slime kits, slime making kit, slime project</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="http://www.michaels.com/diy-slime-making-materials/diy-slime"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">valentine projects, valentines projects, valentines project, valentines day project, diy valentine, valentine project</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="836689099"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">dried flower, dried flowers</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="868431191"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">easter</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="/easter"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">easter decor, easter decorations</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="864880784"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">easter party, easter party decorations, easter party supplies</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="832473507"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">easter projects</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="839796741"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">elf on the shelf, elves on shelf, elves on shelves, the elf on the shelf, the elves on the shelf, the elves on the shelves</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="890050436"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">embossing</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188579"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">everyday values, everyday value, every day values, every day value</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="edv"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">return, returns, return policy, returns policy, refunds, refund, exchanges, exchange</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <page-redirect page-id="ca-return-policy"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">fabric, fabrics</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="853465756"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">fabric dye</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="876004979"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">fairy garden, fairy garden decor, fairy garden supplies, miniature fairy garden, miniature garden, mini garden, rustic garden, shoreline garden, tiny treasures, woodland garden, woodland rustic garden, tiny treasures miniatures</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="888499349"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">fall, fall decor, fall decorations</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="876350930"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">fall floral, fall flowers</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="876351066"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">floral projects, flower projects</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="815811915"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">frame, frames, photo frame, photo frames, picture frame, picture frames</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188411"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">glass, glass container, glass containers</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="834499173"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">glitter</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="834499190"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">global chic, global chic spring decor, global chic spring decor collection, global decor, global spring decor, global spring decor collection, global chic decor collection</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="901556959"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">holiday fabric, holiday fabrics</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="853466492"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">hours, locations, locator, open hours, store, store hours, store locations, store locator, stores, location</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="/store-locator"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">indoor lighting, indoor lights, lighting, lights, outdoor lighting, outdoor lights, patio lighting, patio lights, light</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="863178392"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">jewelry storage</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188210"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">jewelry tool, jewelry tools</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188175"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">kids crafts, kid crafts</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="876270867"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">kid project, kid projects, kids project, projects for kids, kids projects</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="815811845"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">lamps &amp; lighting</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="863178392"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">leather crafting</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188692"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">liquidtex, liquitex</keywords>
+            <online-flag>false</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="http://www.michaels.com/brands/liquitex/b_liquitex"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">martha, stewart, martha stewart, martha stewart crafts, martha stewart video</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="marthastewartcrafts"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">mason jar projects, mason jars project</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="845170807"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">mat, matboard, mat board, photo mat, picture mat, mats</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188436"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">rewards, michaels rewards, perks, perk program, reward</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="http://www.michaels.com/rewards"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">model paint</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="876274106"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">my account, my profile</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="https://www.michaels.com/Account"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">open stock paper</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188527"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">outdoor fabric, outdoor fabrics</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="853466540"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">papercraft, paper craft, paper crafting, papercrafting</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188524"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">party supplies</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188719"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">peppermint lane, peppermint lane collection, peppermint lane christmas, peppermint lane christmas collection</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="884005513"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">pinecone lodge, pine cone lodge, pinecone lodge collection, pine cone lodge collection, pinecone lodge christmas, pine cone lodge christmas, pinecone lodge christmas collection, pine cone lodge christmas collection</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="884005504"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">plastic storage, plastic container, plastic containers</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="http://www.michaels.com/craft-organization/plastic-totes-and-organizers/809188647"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">plate stand</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188449"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">poster frame, poster frames</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188414"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">printmaking, print making</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="845163456"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">project wood, wood projects, unfinished wood projects</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="815811951"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">quilting fabric, quilt fabric, quilting fabrics, quilt fabrics</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="853466609"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">quilting notions, quilting supplies, quilt notions, quilt supplies, quilting</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="853466801"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">recall, recalls</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="http://www.michaels.com/product-recalls/ca-recall.html"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">save the date, save the dates</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <page-redirect page-id="ca-custom-products"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">school project, school projects</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="815811858"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">science kit, science kits, science project, science projects</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="880136579"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">scrapbook, scrapbook album, scrapbook albums, scrapbooks, scrap book</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188559"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">scrapbooking, scrap booking</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188524"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">scrapbooking paper, scrapbook paper</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188525"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">scrapbook storage, storage bins, storeage bins, scrapbook storage</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188640"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">scratch art</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="http://www.michaels.com/drawing-sets/scratch-art/860097362"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">sculpture</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="845166443"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">sewing</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809187776"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">shimmer christmas collection, shimmer collection, shimmer noel, shimmer noel christmas collection, shimmer noel collection</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="884005514"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">shopkins party, shopkins party supplies, shopkins themed party, shopkins theme party</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="858041890"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">snap, snaps</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="853467086"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">team fabric, sports team fabric</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="character-fabric-sports"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">spring, spring decor, spring decorations</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="864880777"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">spring home decor, spring home decor collections, spring decor collections</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="901556957"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">spring floral</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="864880806"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">strung beads</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188123"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">teacher appreciation,</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="http://www.michaels.com/teachers"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">thread</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="853466864"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">upholstery fabric, upholstery fabrics</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="853466549"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">video, videos</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="http://www.michaels.com/department-video"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">vintage spring decor, vintage romance spring decor, vintage spring collection, vintage romance spring decor collection, vintage romance decor collection</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="901556960"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">wall art &amp; decor</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188298"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">wall decal, wall decals, wall sticker, wall stickers</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="840877983"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">wall frame, wall frames</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188416"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">wedding</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188769"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">wedding invite, wedding invites, wedding invitation, wedding invitations, wedding stationery, wedding stationary</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188811"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">wood, wood crafts, wood supplies</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188673"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">wooden letters, wood letters, wooden letter, wood letter</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="809188674"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">wood paint</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <url-redirect target-url="/crafts-and-hobbies/craft-paint/809188094#prefn1=usage&amp;pmpt=qualifying&amp;prefv1=Wood|All Purpose"/>
+        </redirect>
+        <redirect>
+            <keywords xml:lang="x-default">wood working, woodworking</keywords>
+            <online-flag>true</online-flag>
+            <secure-flag>false</secure-flag>
+            <category-redirect category-id="834499452"/>
+        </redirect>
+    </redirect-list>
+    <suggestion-list xml:lang="x-default">
+        <suggestions>Project</suggestions>
+        <suggestions>studio decor</suggestions>
+        <suggestions>zippers</suggestions>
+        <exclusions/>
+    </suggestion-list>
+    <compound-word-list xml:lang="x-default">
+        <compound-words>art-minds</compound-words>
+        <compound-words>bird-house</compound-words>
+        <compound-words>chalk-board</compound-words>
+        <compound-words>con-tact</compound-words>
+        <compound-words>cork-board</compound-words>
+        <compound-words>create-365</compound-words>
+        <compound-words>gum-paste</compound-words>
+        <compound-words>iron-on</compound-words>
+        <compound-words>mod-podge</compound-words>
+        <compound-words>modge-podge</compound-words>
+        <compound-words>note-book</compound-words>
+        <compound-words>note-card</compound-words>
+        <compound-words>para-cord</compound-words>
+        <compound-words>prisma-color</compound-words>
+        <compound-words>scan-n-cut</compound-words>
+        <compound-words>sea-shell</compound-words>
+        <compound-words>snow-flake</compound-words>
+        <compound-words>spider-man</compound-words>
+        <compound-words>t-shirt</compound-words>
+        <compound-words>x-acto</compound-words>
+    </compound-word-list>
+    <common-phrase-list xml:lang="x-default">
+        <common-phrases match-mode="exact-match">air brush</common-phrases>
+        <common-phrases match-mode="exact-match">baby's breath</common-phrases>
+        <common-phrases match-mode="exact-match">babys breath</common-phrases>
+        <common-phrases match-mode="exact-match">bead landing</common-phrases>
+        <common-phrases match-mode="exact-match">bottle opener</common-phrases>
+        <common-phrases match-mode="exact-match">brush on</common-phrases>
+        <common-phrases match-mode="exact-match">candle holder</common-phrases>
+        <common-phrases match-mode="exact-match">clip frame</common-phrases>
+        <common-phrases match-mode="exact-match">construction paper</common-phrases>
+        <common-phrases match-mode="exact-match">cork board</common-phrases>
+        <common-phrases match-mode="exact-match">cork panel</common-phrases>
+        <common-phrases match-mode="exact-match">crafting light</common-phrases>
+        <common-phrases match-mode="exact-match">created space</common-phrases>
+        <common-phrases match-mode="exact-match">crepe paper</common-phrases>
+        <common-phrases match-mode="exact-match">cute as a button</common-phrases>
+        <common-phrases match-mode="exact-match">cutting mat</common-phrases>
+        <common-phrases match-mode="exact-match">father's day</common-phrases>
+        <common-phrases match-mode="exact-match">fondant pattern</common-phrases>
+        <common-phrases match-mode="exact-match">iron on</common-phrases>
+        <common-phrases match-mode="exact-match">light box</common-phrases>
+        <common-phrases match-mode="exact-match">mail box</common-phrases>
+        <common-phrases match-mode="exact-match">mirrored back</common-phrases>
+        <common-phrases match-mode="exact-match">mirrored glass</common-phrases>
+        <common-phrases match-mode="exact-match">paint jar</common-phrases>
+        <common-phrases match-mode="exact-match">paper clip</common-phrases>
+        <common-phrases match-mode="exact-match">paper folding</common-phrases>
+        <common-phrases match-mode="exact-match">paper house</common-phrases>
+        <common-phrases match-mode="exact-match">paper mache</common-phrases>
+        <common-phrases match-mode="exact-match">paper mate</common-phrases>
+        <common-phrases match-mode="exact-match">paper shot glasses</common-phrases>
+        <common-phrases match-mode="exact-match">parchment paper</common-phrases>
+        <common-phrases match-mode="exact-match">pencil christmas tree</common-phrases>
+        <common-phrases match-mode="exact-match">plastic canvas</common-phrases>
+        <common-phrases match-mode="exact-match">pre-cut mat</common-phrases>
+        <common-phrases match-mode="exact-match">red heart</common-phrases>
+        <common-phrases match-mode="exact-match">roller coaster</common-phrases>
+        <common-phrases match-mode="exact-match">sea foam</common-phrases>
+        <common-phrases match-mode="exact-match">sea horse</common-phrases>
+        <common-phrases match-mode="exact-match">shadow box</common-phrases>
+        <common-phrases match-mode="exact-match">shoe box</common-phrases>
+        <common-phrases match-mode="exact-match">snow white</common-phrases>
+        <common-phrases match-mode="exact-match">star wars</common-phrases>
+        <common-phrases match-mode="exact-match">tissue paper</common-phrases>
+        <common-phrases match-mode="exact-match">tracing paper</common-phrases>
+        <common-phrases match-mode="exact-match">tree skirt</common-phrases>
+        <common-phrases match-mode="exact-match">wrapping paper</common-phrases>
+        <common-phrases match-mode="exact-match">wreath holder</common-phrases>
+        <common-phrases match-mode="last-word-match">art portfolio</common-phrases>
+        <common-phrases match-mode="last-word-match">box chain</common-phrases>
+        <common-phrases match-mode="last-word-match">boxed crayons</common-phrases>
+        <common-phrases match-mode="last-word-match">button brad</common-phrases>
+        <common-phrases match-mode="last-word-match">button taffeta</common-phrases>
+        <common-phrases match-mode="last-word-match">fondant satin ribbon</common-phrases>
+        <common-phrases match-mode="last-word-match">marker storage</common-phrases>
+        <common-phrases match-mode="last-word-match">mirror mounting</common-phrases>
+        <common-phrases match-mode="last-word-match">mirror organza</common-phrases>
+        <common-phrases match-mode="last-word-match">mirror paper</common-phrases>
+        <common-phrases match-mode="last-word-match">paper bag</common-phrases>
+        <common-phrases match-mode="last-word-match">paper bows</common-phrases>
+        <common-phrases match-mode="last-word-match">paper chain</common-phrases>
+        <common-phrases match-mode="last-word-match">paper crinkle</common-phrases>
+        <common-phrases match-mode="last-word-match">paper cup</common-phrases>
+        <common-phrases match-mode="last-word-match">paper cups</common-phrases>
+        <common-phrases match-mode="last-word-match">paper daisy flowers</common-phrases>
+        <common-phrases match-mode="last-word-match">paper doilies</common-phrases>
+        <common-phrases match-mode="last-word-match">paper fairytale</common-phrases>
+        <common-phrases match-mode="last-word-match">paper fan</common-phrases>
+        <common-phrases match-mode="last-word-match">paper flower</common-phrases>
+        <common-phrases match-mode="last-word-match">paper flying dragon</common-phrases>
+        <common-phrases match-mode="last-word-match">paper food tray</common-phrases>
+        <common-phrases match-mode="last-word-match">paper garland</common-phrases>
+        <common-phrases match-mode="last-word-match">paper labels</common-phrases>
+        <common-phrases match-mode="last-word-match">paper lantern</common-phrases>
+        <common-phrases match-mode="last-word-match">paper mask</common-phrases>
+        <common-phrases match-mode="last-word-match">paper party bags</common-phrases>
+        <common-phrases match-mode="last-word-match">paper party streamers</common-phrases>
+        <common-phrases match-mode="last-word-match">paper plate</common-phrases>
+        <common-phrases match-mode="last-word-match">paper pom pom</common-phrases>
+        <common-phrases match-mode="last-word-match">paper popcorn bags</common-phrases>
+        <common-phrases match-mode="last-word-match">paper punch</common-phrases>
+        <common-phrases match-mode="last-word-match">paper rope</common-phrases>
+        <common-phrases match-mode="last-word-match">paper shapes</common-phrases>
+        <common-phrases match-mode="last-word-match">paper storage</common-phrases>
+        <common-phrases match-mode="last-word-match">paper straws</common-phrases>
+        <common-phrases match-mode="last-word-match">paper tags</common-phrases>
+        <common-phrases match-mode="last-word-match">paper trimmer</common-phrases>
+        <common-phrases match-mode="last-word-match">valentine wreath</common-phrases>
+        <common-phrases match-mode="last-word-match">wedding program</common-phrases>
+        <common-phrases match-mode="last-word-match">wreath door hanger</common-phrases>
+        <common-phrases match-mode="last-word-match">wreath hanger</common-phrases>
+        <common-phrases match-mode="last-word-match">yarn needle</common-phrases>
+    </common-phrase-list>
+    <category-exclusion-list xml:lang="x-default">
+        <category-exclusions>beading &amp; jewelry making</category-exclusions>
+        <category-exclusions>bottles &amp; jars</category-exclusions>
+        <category-exclusions>bracelet\, chain &amp; rings</category-exclusions>
+        <category-exclusions>calligraphy pens &amp; sets</category-exclusions>
+        <category-exclusions>cards &amp; envelopes</category-exclusions>
+        <category-exclusions>chalk &amp; fabric markers</category-exclusions>
+        <category-exclusions>desk accessories</category-exclusions>
+        <category-exclusions>felt &amp; crafting fabric</category-exclusions>
+        <category-exclusions>flag cases &amp; bases</category-exclusions>
+        <category-exclusions>foam &amp; mounting boards</category-exclusions>
+        <category-exclusions>glitter\, chalks\, embossing &amp; flocking</category-exclusions>
+        <category-exclusions>home decor &amp; floral</category-exclusions>
+        <category-exclusions>jewelry props &amp; storage</category-exclusions>
+        <category-exclusions>mats &amp; glass</category-exclusions>
+        <category-exclusions>photo albums &amp; refills</category-exclusions>
+        <category-exclusions>picture &amp; frame hangers</category-exclusions>
+        <category-exclusions>place cards &amp; holders</category-exclusions>
+        <category-exclusions>scrapbook &amp; photo albums</category-exclusions>
+        <category-exclusions>scrapbooking &amp; papercraft</category-exclusions>
+        <category-exclusions>stamps &amp; stamp pads</category-exclusions>
+        <category-exclusions>stickers &amp; embellishments</category-exclusions>
+        <category-exclusions>table top frames</category-exclusions>
+        <category-exclusions>tissue\, clearphane &amp; shreds</category-exclusions>
+    </category-exclusion-list>
+    <stemming-exception-list xml:lang="x-default">
+        <stemming-exception-rule>
+            <stemming-exceptions>angelus</stemming-exceptions>
+            <stem>angelus</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>batting</stemming-exceptions>
+            <stem>batting</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>beaded</stemming-exceptions>
+            <stem>beaded</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>belle</stemming-exceptions>
+            <stem>belle</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>bells</stemming-exceptions>
+            <stem>bells</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>bowling</stemming-exceptions>
+            <stem>bowling</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>brushed</stemming-exceptions>
+            <stem>brushed</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>carved</stemming-exceptions>
+            <stem>carved</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>carving</stemming-exceptions>
+            <stem>carving</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>created</stemming-exceptions>
+            <stem>created</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>decoration</stemming-exceptions>
+            <stem>decoration</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>decorative</stemming-exceptions>
+            <stem>decorative</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>embossed</stemming-exceptions>
+            <stem>embossed</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>embossing</stemming-exceptions>
+            <stem>embossing</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>eraser</stemming-exceptions>
+            <stem>eraser</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>etched</stemming-exceptions>
+            <stem>etched</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>etching</stemming-exceptions>
+            <stem>etching</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>felting</stemming-exceptions>
+            <stem>felting</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>glasses</stemming-exceptions>
+            <stem>glasses</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>icing</stemming-exceptions>
+            <stem>icing</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>knitting</stemming-exceptions>
+            <stem>knitting</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>laminate</stemming-exceptions>
+            <stem>laminate</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>laminated</stemming-exceptions>
+            <stem>laminated</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>laminator</stemming-exceptions>
+            <stem>laminator</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>magnetic</stemming-exceptions>
+            <stem>magnetic</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>matte</stemming-exceptions>
+            <stem>matte</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>metallic</stemming-exceptions>
+            <stem>metallic</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>modeling</stemming-exceptions>
+            <stem>modeling</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>modelling</stemming-exceptions>
+            <stem>modelling</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>molded</stemming-exceptions>
+            <stem>molded</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>molding</stemming-exceptions>
+            <stem>molding</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>officer</stemming-exceptions>
+            <stem>officer</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>organic</stemming-exceptions>
+            <stem>organic</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>organic</stemming-exceptions>
+            <stem>organic</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>organizer</stemming-exceptions>
+            <stem>organizer</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>ornamental</stemming-exceptions>
+            <stem>ornamental</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>painted</stemming-exceptions>
+            <stem>painted</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>patterned</stemming-exceptions>
+            <stem>patterned</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>pictures</stemming-exceptions>
+            <stem>pictures</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>plated</stemming-exceptions>
+            <stem>plated</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>quilling</stemming-exceptions>
+            <stem>quilling</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>quilted</stemming-exceptions>
+            <stem>quilted</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>quilting</stemming-exceptions>
+            <stem>quilting</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>studded</stemming-exceptions>
+            <stem>studded</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>tulips</stemming-exceptions>
+            <stem>tulips</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>wicking</stemming-exceptions>
+            <stem>wicking</stem>
+        </stemming-exception-rule>
+        <stemming-exception-rule>
+            <stemming-exceptions>zippered</stemming-exceptions>
+            <stem>zippered</stem>
+        </stemming-exception-rule>
+    </stemming-exception-list>
+    <index-settings>
+        <full-reindexing-schedule>
+            <date-from>2014-03-25Z</date-from>
+            <start-time>09:00:00.000Z</start-time>
+            <factor>1</factor>
+            <unit>days</unit>
+        </full-reindexing-schedule>
+        <incremental-reindexing-enabled>
+            <index-type>product</index-type>
+            <index-type>synonym</index-type>
+            <index-type>suggest</index-type>
+            <index-type>activedata</index-type>
+            <index-type>content</index-type>
+        </incremental-reindexing-enabled>
+        <indexed-locales>
+            <locale>x-default</locale>
+        </indexed-locales>
+        <stemming xml:lang="x-default">English</stemming>
+    </index-settings>
+</search>
+

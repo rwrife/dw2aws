@@ -1,0 +1,1994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sort xmlns="http://www.demandware.com/xml/impex/sort/2009-05-15">
+    <dynamic-attribute dynamic-attribute-id="best-seller">
+        <weighted-attribute>
+            <attribute-path>product.activeData.conversionMonth</attribute-path>
+            <weight>25</weight>
+            <default-value>average</default-value>
+            <direction>descending</direction>
+        </weighted-attribute>
+        <weighted-attribute>
+            <attribute-path>product.activeData.revenueMonth</attribute-path>
+            <weight>25</weight>
+            <default-value>average</default-value>
+            <direction>descending</direction>
+        </weighted-attribute>
+        <weighted-attribute>
+            <attribute-path>product.activeData.unitsMonth</attribute-path>
+            <weight>25</weight>
+            <default-value>minimum</default-value>
+            <direction>descending</direction>
+        </weighted-attribute>
+        <weighted-attribute>
+            <attribute-path>product.availabilityModel.custom.availability</attribute-path>
+            <weight>25</weight>
+            <default-value>minimum</default-value>
+            <direction>descending</direction>
+        </weighted-attribute>
+    </dynamic-attribute>
+
+    <dynamic-attribute dynamic-attribute-id="most-popular">
+        <weighted-attribute>
+            <attribute-path>product.activeData.viewsMonth</attribute-path>
+            <weight>25</weight>
+            <default-value>minimum</default-value>
+            <direction>descending</direction>
+        </weighted-attribute>
+        <weighted-attribute>
+            <attribute-path>product.activeData.salesVelocityMonth</attribute-path>
+            <weight>25</weight>
+            <default-value>minimum</default-value>
+            <direction>descending</direction>
+        </weighted-attribute>
+        <weighted-attribute>
+            <attribute-path>product.activeData.lookToBookRatioMonth</attribute-path>
+            <weight>25</weight>
+            <default-value>average</default-value>
+            <direction>descending</direction>
+        </weighted-attribute>
+        <weighted-attribute>
+            <attribute-path>product.availabilityModel.availability</attribute-path>
+            <weight>25</weight>
+            <default-value>minimum</default-value>
+            <direction>descending</direction>
+        </weighted-attribute>
+    </dynamic-attribute>
+
+    <sorting-rule rule-id="Color">
+        <description>Sort by Color Family</description>
+        <sorting-attributes>
+            <availability-status/>
+            <attribute>
+                <attribute-path>product.custom.color</attribute-path>
+                <direction>ascending</direction>
+                <include-text-relevance>false</include-text-relevance>
+            </attribute>
+        </sorting-attributes>
+    </sorting-rule>
+
+    <sorting-rule rule-id="Newness-manual">
+        <sorting-attributes>
+            <availability-status/>
+            <category-position/>
+            <attribute>
+                <attribute-path>product.activeData.daysAvailable</attribute-path>
+                <direction>ascending</direction>
+                <include-text-relevance>false</include-text-relevance>
+            </attribute>
+            <attribute>
+                <attribute-path>product.activeData.creationDate</attribute-path>
+                <direction>ascending</direction>
+                <include-text-relevance>false</include-text-relevance>
+            </attribute>
+        </sorting-attributes>
+    </sorting-rule>
+
+    <sorting-rule rule-id="best-seller">
+        <description>Sorts by combination of revenue, availability</description>
+        <sorting-attributes>
+            <availability-status/>
+            <dynamic-attribute dynamic-attribute-id="best-seller">
+                <include-text-relevance>true</include-text-relevance>
+            </dynamic-attribute>
+        </sorting-attributes>
+    </sorting-rule>
+
+    <sorting-rule rule-id="category position">
+        <sorting-attributes>
+            <availability-status/>
+            <category-position/>
+            <attribute>
+                <attribute-path>product.availabilityModel.custom.ats</attribute-path>
+                <direction>descending</direction>
+                <include-text-relevance>false</include-text-relevance>
+            </attribute>
+        </sorting-attributes>
+    </sorting-rule>
+
+    <sorting-rule rule-id="category position-best seller">
+        <sorting-attributes>
+            <availability-status/>
+            <category-position/>
+            <dynamic-attribute dynamic-attribute-id="best-seller">
+                <include-text-relevance>false</include-text-relevance>
+            </dynamic-attribute>
+        </sorting-attributes>
+    </sorting-rule>
+
+    <sorting-rule rule-id="category position-nonavailable">
+        <description>Sort by category position regardless of availability</description>
+        <sorting-attributes>
+            <category-position/>
+        </sorting-attributes>
+    </sorting-rule>
+
+    <sorting-rule rule-id="most-popular">
+        <description>Sorts by combination of product views, sales velocity, look to book, and availability</description>
+        <sorting-attributes>
+            <availability-status/>
+            <category-position/>
+            <attribute>
+                <attribute-path>product.searchPlacement</attribute-path>
+                <direction>descending</direction>
+                <include-text-relevance>false</include-text-relevance>
+            </attribute>
+            <dynamic-attribute dynamic-attribute-id="most-popular">
+                <include-text-relevance>false</include-text-relevance>
+            </dynamic-attribute>
+        </sorting-attributes>
+    </sorting-rule>
+
+    <sorting-rule rule-id="new-arrivals">
+        <description>Sorts by date</description>
+        <sorting-attributes>
+            <availability-status/>
+            <attribute>
+                <attribute-path>product.creationDate</attribute-path>
+                <direction>descending</direction>
+                <include-text-relevance>false</include-text-relevance>
+            </attribute>
+        </sorting-attributes>
+    </sorting-rule>
+
+    <sorting-rule rule-id="newness">
+        <description>Sorts by newest products</description>
+        <sorting-attributes>
+            <availability-status/>
+            <attribute>
+                <attribute-path>product.activeData.daysAvailable</attribute-path>
+                <direction>ascending</direction>
+                <include-text-relevance>false</include-text-relevance>
+            </attribute>
+            <attribute>
+                <attribute-path>product.activeData.creationDate</attribute-path>
+                <direction>ascending</direction>
+                <include-text-relevance>false</include-text-relevance>
+            </attribute>
+        </sorting-attributes>
+    </sorting-rule>
+
+    <sorting-rule rule-id="price-high-to-low">
+        <description>Sorts by price descending</description>
+        <sorting-attributes>
+            <price>
+                <direction>descending</direction>
+            </price>
+        </sorting-attributes>
+    </sorting-rule>
+
+    <sorting-rule rule-id="price-low-to-high">
+        <description>Sorts by price ascending</description>
+        <sorting-attributes>
+            <price>
+                <direction>ascending</direction>
+            </price>
+        </sorting-attributes>
+    </sorting-rule>
+
+    <sorting-rule rule-id="product name">
+        <sorting-attributes>
+            <category-position/>
+            <attribute>
+                <attribute-path>product.name</attribute-path>
+                <direction>ascending</direction>
+                <include-text-relevance>false</include-text-relevance>
+            </attribute>
+            <attribute>
+                <attribute-path>product.custom.subClass</attribute-path>
+                <direction>ascending</direction>
+                <include-text-relevance>false</include-text-relevance>
+            </attribute>
+        </sorting-attributes>
+    </sorting-rule>
+
+    <sorting-rule rule-id="wedding- best seller">
+        <description>Sorts by units sold past 365 days</description>
+        <sorting-attributes>
+            <attribute>
+                <attribute-path>product.activeData.salesVelocityYear</attribute-path>
+                <direction>descending</direction>
+                <include-text-relevance>false</include-text-relevance>
+            </attribute>
+        </sorting-attributes>
+    </sorting-rule>
+
+    <sorting-rule-assignment category-id="scrapbookdeals20" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="scrapbookpapercraft23" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="pokemon-go" rule-id="Color"/>
+
+    <sorting-rule-assignment category-id="pokemon-go" rule-id="Color"/>
+
+    <sorting-rule-assignment category-id="876270308" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="876270944" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="882063084" rule-id="Newness-manual"/>
+
+    <sorting-rule-assignment category-id="ia34-dolls" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="880136551" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="880389047" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="882077436" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="mod-podge" rule-id="category position-best seller"/>
+
+    <sorting-rule-assignment category-id="876272350" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="871592789" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="857941316" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="scrapbookpapercraft23" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="email26" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="email27" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="eow30-artistpads" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="832168929" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="framing34" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="framing35" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="email36-frames" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="displaycases-shadowboxes" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="809188727" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="dh-2014-mg-artist" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="dh-2014-mg-her" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592675" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592672" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="822708711" rule-id="most-popular"/>
+
+    <sorting-rule-assignment category-id="809188719" rule-id="product name"/>
+
+    <sorting-rule-assignment category-id="celebrateamerica" rule-id="category position-best seller"/>
+
+    <sorting-rule-assignment category-id="julyfourthprojects" rule-id="product name"/>
+
+    <sorting-rule-assignment category-id="onlinedeals18" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="850042691" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="832736736" rule-id="product name"/>
+
+    <sorting-rule-assignment category-id="big-brand-liquitex" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="877867901" rule-id="most-popular"/>
+
+    <sorting-rule-assignment category-id="832736995" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737173" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833603879" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341628" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341629" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341630" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341631" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341632" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="857941326" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592658" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341593" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="876272278" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="876270226" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="882896009" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="857512947" rule-id="newness"/>
+
+    <sorting-rule-assignment category-id="809188807" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="ia39-gildan-t-shirts" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592654" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="baking-holiday" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="decor-trees-trimmings" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="gift-crafter" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="maker-papercraft" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="maker-knitting" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="807060413" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="809188460" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="809188044" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="generalcraftsdeals-3-3" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="scrapbookpapercraftdeals-3-3" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="number7" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="framingdeals31" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="framing33" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="onlinedeals-kidscrafts" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="dh-2014-mt" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="kidscrafts37" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="framing38" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="activity-kits42" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="832736736" rule-id="product name"/>
+
+    <sorting-rule-assignment category-id="833592659" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592654" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592658" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341593" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592686" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592695" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737106" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737147" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737097" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341628" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341629" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341631" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341632" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593095" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593073" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="wrap" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="merry-minis" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="gift-wrap" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="809188472" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="809188026" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="809188042" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="851315821" rule-id="newness"/>
+
+    <sorting-rule-assignment category-id="809188113" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="scrapbookdeals20" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="809188524" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="number2" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="framing30" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="email30-btsstrathmore400" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="bts-topbrands" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="framingdeals33" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="onlinedeals-kids" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="framing40" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="832737131" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737110" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737108" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="scrapbookpapercraft23" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="scrapbookpapercraft26-2" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="lionbrandagrampatterns" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593237" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="artsupplies34" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="trees-6ftandtaller" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-dimensionallighting" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-garlands" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-hillsidepenciltrees" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia41-6fttaller" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia41-cmascandle" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737173" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833603879" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341628" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341629" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341630" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341631" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341632" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832473357" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="833592654" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592656" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592658" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592659" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341593" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="863178392" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="876271980" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="fine-art-sets" rule-id="category position-best seller"/>
+
+    <sorting-rule-assignment category-id="ia39-tulip-body-art" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="cmas-collections" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="815811949" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="815811959" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="815811971" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="815812019" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="815811951" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="880367487" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="876270254" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="876270282" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="876270289" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="880405233" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="876271747" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="framing28" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="artsuppliesdeals36" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="apparelcrafts36" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="framing36" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="dh-2014-mg-home" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832736736" rule-id="product name"/>
+
+    <sorting-rule-assignment category-id="832736995" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737173" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833603879" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341628" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341629" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341630" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341631" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341632" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593237" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593229" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593247" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832473357" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="833592656" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592659" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592654" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592658" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341593" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592675" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592672" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592686" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592695" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592682" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592691" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832473574" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="artsupplies34" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="876271765" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="876271776" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="845169520" rule-id="Newness-manual"/>
+
+    <sorting-rule-assignment category-id="generalcraftsdeals41" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="artsupplies-2-1" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="painting-2-1" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="generalcraftsdeals-3-3" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="scrapbookpapercraftdeals-3-3" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="esmodpodge" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="frames-expressions" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="dh-2014-mg-kids" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="dh-2014-mg-him" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="815811829" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="holiday-party-supplies" rule-id="Newness-manual"/>
+
+    <sorting-rule-assignment category-id="857941326" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="851749618" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia39-6ftandtaller" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-trees" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-cmaslemax" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-trees" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-1824wreath9garland" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-neticiclesets" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-dimensionallighting" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-candles" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-cmasaccents" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-garlands" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-cmaslemax" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-merryminis" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-cmascandleschargers" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-hillsidepenciltrees" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia41-stockholmtrend" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia41-entrway" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia41-6fttaller" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia41-neticiclelights" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia41-cmascandle" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia41-cmasstemsgarlands" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia41-lemax" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592672" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592675" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592682" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592686" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592691" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592695" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832473574" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="832737097" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737099" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737101" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737104" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="809187997" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="809188735" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="809188728" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="fall-halloween-lemax" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="weekend-doorbusters-2" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="809187943" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="email24" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="framingdeals29" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="framing30" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="framingdeals31" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="generalcraftskeyitems31" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="framing31" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="email30-btssharpies" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="email30-btspencilsmarkers" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="framing32" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="apparelcrafts36" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="activity-kits42" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="knittingcrochet48" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="activity-kits-47" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="freeshipping" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="809188719" rule-id="newness"/>
+
+    <sorting-rule-assignment category-id="809188754" rule-id="product name"/>
+
+    <sorting-rule-assignment category-id="833593237" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593229" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593247" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832736736" rule-id="product name"/>
+
+    <sorting-rule-assignment category-id="835341628" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341629" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341630" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341631" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341632" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832736995" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737173" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833603879" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832473357" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="832473574" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="833592656" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592659" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592654" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592658" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341593" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592675" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592672" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592686" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592695" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="809188563" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="beads-shop-by-color" rule-id="Color"/>
+
+    <sorting-rule-assignment category-id="giftithome" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="giftitscrap" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="840875333" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="ia22-gildan-t-shirts" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="876270270" rule-id="Newness-manual"/>
+
+    <sorting-rule-assignment category-id="880378628" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="root" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="painting-online-specials-1" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="number3" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="number4" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="number5" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="809187838" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="framingdeals32" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="framing39" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="ia41-hardcoverjournals" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="832473357" rule-id="product name"/>
+
+    <sorting-rule-assignment category-id="832737099" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737104" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833603879" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593229" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="painting05" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="845840173" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832473574" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="833592682" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592691" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737131" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833601235" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737110" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737108" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833601264" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737120" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737099" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737104" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737106" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737147" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737101" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833601251" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737097" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="artsupplieskeyitems32" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="809188326" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="809188592" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="832736736" rule-id="product name"/>
+
+    <sorting-rule-assignment category-id="832736995" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737173" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833603879" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341628" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341629" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="876270275" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="809188523" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="Projects" rule-id="newness"/>
+
+    <sorting-rule-assignment category-id="generalcraftskeyitems31" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="809188478" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="809188717" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="holiday" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="activity-kits42" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="framing27" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="framing28" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="painting34" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="framing40" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="framing41" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="knittingcrochet48" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="giftsover100" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="809188754" rule-id="product name"/>
+
+    <sorting-rule-assignment category-id="833593237" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593229" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593247" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832736736" rule-id="product name"/>
+
+    <sorting-rule-assignment category-id="835341628" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341629" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341630" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341631" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341632" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832736995" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737173" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833603879" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832473357" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="833592656" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592659" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592654" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592658" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341593" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592675" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592672" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592686" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592695" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592682" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592691" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737131" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833601235" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737110" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737108" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833601264" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737120" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737099" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737104" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737106" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737147" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737101" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833601251" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="mothersday" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="876004995" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="876004993" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia22-gildan-t-shirts" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="artsupplies34" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="876270276" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="882077368" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="876272298" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="815811858" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="809188114" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="scrapbookdeals20" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="833592731" rule-id="product name"/>
+
+    <sorting-rule-assignment category-id="809188754" rule-id="product name"/>
+
+    <sorting-rule-assignment category-id="835341630" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593081" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835761347" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="activity-kits-47" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="832737097" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="scrapbookpapercraft23" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="807060413" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="809188717" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="876272315" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="big-brand-heidiswapp" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="canvasframes" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="883473543" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="833593229" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593247" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832473357" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="833592656" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592659" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592654" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592658" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341593" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592675" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592672" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592686" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592695" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592682" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592691" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832473574" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="835341630" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341631" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341632" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593237" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593229" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="882077468" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="845166481" rule-id="newness"/>
+
+    <sorting-rule-assignment category-id="artsupplieskeyitems32" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="876270240" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="880136539" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="876271630" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="876270958" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="882895840" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="costume-creation" rule-id="newness"/>
+
+    <sorting-rule-assignment category-id="840875760" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="883468469" rule-id="newness"/>
+
+    <sorting-rule-assignment category-id="809188800" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="809188804" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="809188781" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="gifts-under10" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="809188811" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="854534352-2" rule-id="newness"/>
+
+    <sorting-rule-assignment category-id="number6" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="framing27" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="framing31" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="bts-topbrands" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="email32-strathmorepads" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="email36-perlerbeads" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="framing36" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="generalcraftsdeals41" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="ia41-hardcoverjournals" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="framing41" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="832737120" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737101" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833601251" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832736995" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737173" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593237" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593247" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593092" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="activity-kits-47" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="overstock" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="833593247" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832473357" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="833592656" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592659" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592654" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="decor" rule-id="newness"/>
+
+    <sorting-rule-assignment category-id="gifts-under50" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="833592656" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592659" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="815811994" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="815811915" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="815811865" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="new-arrivals-beads-jewelry" rule-id="newness"/>
+
+    <sorting-rule-assignment category-id="833592658" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341593" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592675" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592672" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592686" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592695" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592682" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592691" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832473574" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="851417644" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="857941316" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="prelittrees" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="lemaxbuilding" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="lemaxtable" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="trees-6ftandtaller" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="prelittrees" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="shop-christmas-trees" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="christmas-trees" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-1824wreath9garland" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-neticiclesets" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-merryminis" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-cmasaccents" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-cmascandleschargers" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-1824wreath9garland-1" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia41-stockholmtrend" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia41-cmasstemsgarlands" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia41-lemax" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia41-cmascandle" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="809188719" rule-id="Newness-manual"/>
+
+    <sorting-rule-assignment category-id="833593229" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593237" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593247" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="809188754" rule-id="product name"/>
+
+    <sorting-rule-assignment category-id="832736736" rule-id="product name"/>
+
+    <sorting-rule-assignment category-id="832736995" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737173" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833603879" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341628" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341629" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341630" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341631" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341632" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="scrapbookpapercraft23" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="876270274" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="876270508" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="882077419" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="876272350" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="809188098" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="809188097" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="number1" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="number8" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="number9" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="artsupplieskeyitems32" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="14days-crayola" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="artsuppliesdeals36" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="onlinedeals-generalcrafts" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="framing39" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="833592656" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833601235" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592691" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592682" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833601264" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="giftsunder25" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="809188674" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="artsupplies26-2" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="882895832" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="new-kids" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="apparelcrafts36" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="857940657" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="865290304" rule-id="Newness-manual"/>
+
+    <sorting-rule-assignment category-id="832473357" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="833592654" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592656" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592658" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592659" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341593" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592672" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592675" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592682" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592686" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592691" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592695" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832473574" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="876272278" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="876272298" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="876272315" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="home-platinum-frames" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="scrapbookpapercraft23" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="artsupplies34" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="framing35" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="14days-activitykits" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="framing37" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="dh-2014-mg-baker" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="big-brand-cricut" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="artsuppliesdeals36" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="apparelcrafts36" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="entrywaytrees-1" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="tabletoptrees-1" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-candles" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia41-entrway" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia41-entrway" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia41-neticiclelights" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia41-6fttaller" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia41-neticiclelights" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia41-cmascandle" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia41-cmasstemsgarlands" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia41-lemax" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia40-garlands" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737097" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737099" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737101" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737104" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737106" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737108" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737110" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737120" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737131" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737147" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833601235" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833601251" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833601264" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia41-cmasstemsgarlands" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="809188719" rule-id="Newness-manual"/>
+
+    <sorting-rule-assignment category-id="833593229" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593237" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593247" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="809188754" rule-id="product name"/>
+
+    <sorting-rule-assignment category-id="832736736" rule-id="product name"/>
+
+    <sorting-rule-assignment category-id="832736995" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="cyber-monday" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="entrywaytrees" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="holiday-party-supplies" rule-id="Newness-manual"/>
+
+    <sorting-rule-assignment category-id="entrywaytrees-1" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="tabletoptrees-1" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="lemaxbuilding" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="lemaxtable" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="christmas-trees" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="shop-christmas-trees" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="trees-6ftandtaller" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="prelittrees" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="entrywaytrees" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="tabletoptrees" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="864880777" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="809188719" rule-id="newness"/>
+
+    <sorting-rule-assignment category-id="833593229" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593237" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593247" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832736736" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="832736995" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737173" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833603879" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341628" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341629" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341630" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341631" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341632" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832473357" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="833592654" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592656" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592658" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592659" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341593" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592672" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592675" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592682" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592686" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592691" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592695" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832473574" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="832737097" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737099" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737101" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737104" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737106" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737108" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737110" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737120" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737131" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737147" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="green-monday-am" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="green-monday-noon" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="863592086" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="864881375" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="833601235" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="863179413" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="863592086" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="greek" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="845441979" rule-id="Newness-manual"/>
+
+    <sorting-rule-assignment category-id="dolls-access-1" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="kids-shopkins" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="kids-num-noms" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="kids-tsum" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="kids-trolls" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="kids-3doodler-start" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="floral-decor" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="871138037" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="maker-papercraft" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="maker-knitting" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="Shimmer_Noel" rule-id="Newness-manual"/>
+
+    <sorting-rule-assignment category-id="809188674" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="878044648" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="815811890" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="knittingcrochet48" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="868429011" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="sms_projects_jar" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="892163262" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="850973720" rule-id="category position-best seller"/>
+
+    <sorting-rule-assignment category-id="sms_projects_tee" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737147" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833601235" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833601251" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833601264" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="809188121" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="910527369" rule-id="category position-best seller"/>
+
+    <sorting-rule-assignment category-id="910527620" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="876270272" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="greenmonday" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="knittingcrochet48" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="kids-trends" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="864881459" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="850042691" rule-id="newness"/>
+
+    <sorting-rule-assignment category-id="864881459" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="864881421" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="864881375" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="864881362" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="864880777" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="top-online-gifts-2016" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="851749618" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="857940657" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="851417644" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="857941316" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="857941326" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737095" rule-id="Color"/>
+
+    <sorting-rule-assignment category-id="mod-podge" rule-id="category position-best seller"/>
+
+    <sorting-rule-assignment category-id="876270281" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="851749577" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="809188352" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="809187841" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="chargers" rule-id="newness"/>
+
+    <sorting-rule-assignment category-id="809188413" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="910527227" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="809188357" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="845840194" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="knittingcrochet48" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="876270284" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="860002097" rule-id="category position-best seller"/>
+
+    <sorting-rule-assignment category-id="maker-papercraft" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="maker-knitting" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="845166430" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="decor" rule-id="newness"/>
+
+    <sorting-rule-assignment category-id="854534352-2" rule-id="newness"/>
+
+    <sorting-rule-assignment category-id="decor-trees-trimmings" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="gift-crafter" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="maker-knitting" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="maker-papercraft" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="gifts-artist" rule-id="category position-best seller"/>
+
+    <sorting-rule-assignment category-id="gifts-kids" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="kids-shopkins" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="kids-num-noms" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="kids-tsum" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="kids-trolls" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="kids-3doodler-start" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="dolls-access-1" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="gift-wrap" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="gifts-under10" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="gifts-under50" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="wrap" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="baking-holiday" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="sms_projects_mini" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="bulletin-decor" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="easter-basket-making" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="907620639" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="908533043" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="908532929" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="832737106" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737108" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737110" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737120" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737131" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737147" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833601235" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833601251" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833601264" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="845166430" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="860002100" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="809188326" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="all-site-sale" rule-id="category position-best seller"/>
+
+    <sorting-rule-assignment category-id="mothersday" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="876270260" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="beads-shop-by-color" rule-id="Color"/>
+
+    <sorting-rule-assignment category-id="top-toys-2016" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="diy-slime" rule-id="category position-nonavailable"/>
+
+    <sorting-rule-assignment category-id="809188322" rule-id="category position-best seller"/>
+
+    <sorting-rule-assignment category-id="845011096-1" rule-id="newness"/>
+
+    <sorting-rule-assignment category-id="809188298" rule-id="newness"/>
+
+    <sorting-rule-assignment category-id="809188297" rule-id="newness"/>
+
+    <sorting-rule-assignment category-id="gifts-artist" rule-id="category position-best seller"/>
+
+    <sorting-rule-assignment category-id="853465907" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="853465908" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="853465958" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="880686572" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="880686603" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="gifts-1" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia52-red-label-strung-beads-" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="815811921" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="tabletoptrees" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="863179413" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="864880784" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="809188478" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="809188460" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="beads-shop-by-color" rule-id="Color"/>
+
+    <sorting-rule-assignment category-id="top-toys-2016" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="decor-1" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia45-discovery-kids" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia-belmont-11x14-9x9" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="diy-slime" rule-id="category position-nonavailable"/>
+
+    <sorting-rule-assignment category-id="839627477" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="ia-belmont-16x20-11x14" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="easter-kids" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="easter-crafting" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="840875522" rule-id="category position-best seller"/>
+
+    <sorting-rule-assignment category-id="easter-crafting" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="easter-basket-making" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593229" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="809188719" rule-id="newness"/>
+
+    <sorting-rule-assignment category-id="833593237" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833593247" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832736736" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="832736995" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737173" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833603879" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341629" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341630" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341628" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341631" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341632" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832473357" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="833592654" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592656" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592658" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592659" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="835341593" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592672" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592675" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592686" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592691" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592695" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833592682" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832473574" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="832737095" rule-id="Color"/>
+
+    <sorting-rule-assignment category-id="832737097" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737099" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737101" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737104" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737106" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="gifts-kids" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="green-monday-pm" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="864821745" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="864881421" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="864881362" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="833601251" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="833601264" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="809188674" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="871138037" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="851749618" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="857940657" rule-id="price-low-to-high"/>
+
+    <sorting-rule-assignment category-id="809188591" rule-id="category position-best seller"/>
+
+    <sorting-rule-assignment category-id="845441979" rule-id="Newness-manual"/>
+
+    <sorting-rule-assignment category-id="809188591" rule-id="category position-best seller"/>
+
+    <sorting-rule-assignment category-id="wrap" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="baking-holiday" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="decor" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="854534352-2" rule-id="newness"/>
+
+    <sorting-rule-assignment category-id="decor-trees-trimmings" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="gift-crafter" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="maker-knitting" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="maker-papercraft" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="gifts-artist" rule-id="category position-best seller"/>
+
+    <sorting-rule-assignment category-id="gifts-kids" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="kids-shopkins" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="kids-num-noms" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="kids-tsum" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="kids-trolls" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="kids-3doodler-start" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="dolls-access-1" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="gift-wrap" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="gifts-under10" rule-id="price-high-to-low"/>
+
+    <sorting-rule-assignment category-id="gifts-under50" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="crayola-boxed-sets" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="853465992" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="gifts-kids-1" rule-id="best-seller"/>
+
+    <sorting-rule-assignment category-id="all-lighting" rule-id="newness"/>
+
+    <sorting-rule-assignment category-id="sms_projects_spiral" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="815811845" rule-id="new-arrivals"/>
+
+    <sorting-rule-assignment category-id="caron_cakes" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia-canvas-frames" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia-belmont-11x14-9x9" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="ia-belmont-16x20-11x14" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="easter-kids" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="easter-crafting" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="easter-basket-making" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737108" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737110" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737120" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="832737131" rule-id="category position"/>
+
+    <sorting-rule-assignment category-id="910527453" rule-id="category position"/>
+
+    <sorting-options>
+        <sorting-option option-id="best seller">
+            <rule-id>best-seller</rule-id>
+            <display-name xml:lang="x-default">Best Seller</display-name>
+        </sorting-option>
+        <sorting-option option-id="newness">
+            <rule-id>newness</rule-id>
+            <display-name xml:lang="x-default">New Arrivals</display-name>
+        </sorting-option>
+        <sorting-option option-id="price-low-to-high">
+            <rule-id>price-low-to-high</rule-id>
+            <display-name xml:lang="x-default">Price: low-high</display-name>
+        </sorting-option>
+        <sorting-option option-id="price-high-to-low">
+            <rule-id>price-high-to-low</rule-id>
+            <display-name xml:lang="x-default">Price: high-low</display-name>
+        </sorting-option>
+        <sorting-option option-id="Color">
+            <rule-id>Color</rule-id>
+            <display-name xml:lang="x-default">Color</display-name>
+        </sorting-option>
+        <sorting-option option-id="cateogory position">
+            <rule-id>category position</rule-id>
+            <display-name xml:lang="x-default">Featured</display-name>
+        </sorting-option>
+    </sorting-options>
+
+</sort>
